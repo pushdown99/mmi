@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <stdlib.h>
 #include <json.h>
 
@@ -60,7 +59,8 @@ char* getOutput(char *script)
   char _buf[BUFSIZ];
   _internal_buffer[0] = 0;
 
-  char *home = getenv("KAA_HOME");
+  //char *home = getenv("FOPIS_MMI_PATH");
+  char *home = "/opt/fopis-mmi";
   sprintf(_internal_command, "%s/scripts/%s 2>&1", home, script);
 //printf("%s \n", _internal_command);
 

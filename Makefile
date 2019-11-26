@@ -18,6 +18,6 @@ clean:
 	rm -rf $(OUT) $(OBJ) dist/*.deb
 
 install:
-	cp $(OUT) dist/fopis-mmi/opt/fopis-mmi/bin
-	cp -r scripts dist/fopis-mmi/opt/fopis-mmi/
+	cp $(OUT) dist/fopis-mmi/opt/fopis/bin
+	cp -r scripts dist/fopis-mmi/opt/fopis/
 	dpkg -b dist/fopis-mmi

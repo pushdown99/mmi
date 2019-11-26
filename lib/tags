@@ -1,0 +1,1689 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_PORT	./make_radius.h	16;"	d
+ACCOUNT_PORT	./make_radius.h	17;"	d
+ALLOCM	./bufq.h	45;"	d
+AT_3GPP2	./radius.h	62;"	d
+AT_3GPP2_HA_IP_ADDR	./radius.h	77;"	d
+AT_3GPP2_IP_TECH	./radius.h	79;"	d
+AT_3GPP2_SO	./radius.h	78;"	d
+AT_ACCT_INPUT_OCTETS	./radius.h	66;"	d
+AT_ACCT_INPUT_PACKETS	./radius.h	70;"	d
+AT_ACCT_OUTPUT_OCTETS	./radius.h	67;"	d
+AT_ACCT_OUTPUT_PACKETS	./radius.h	71;"	d
+AT_ACCT_SESSION_ID	./radius.h	68;"	d
+AT_ACCT_SESSION_TIME	./radius.h	69;"	d
+AT_ACCT_STATUS_TYPE	./radius.h	65;"	d
+AT_ACCT_TERM_CAUSE	./radius.h	73;"	d
+AT_CALLED_STATION_ID	./radius.h	64;"	d
+AT_CALLING_STATION_ID	./radius.h	63;"	d
+AT_CHAP_CHALLENGE	./radius.h	74;"	d
+AT_CHAP_PASSWD	./radius.h	58;"	d
+AT_FRAMED_IP_ADDRESS	./radius.h	60;"	d
+AT_LOGIN_IP_HOST	./radius.h	61;"	d
+AT_NAS_IP_ADDRESS	./radius.h	59;"	d
+AT_USER_NAME	./radius.h	56;"	d
+AT_USER_PASSWD	./radius.h	57;"	d
+BACKLOG	./sock.c	30;"	d	file:
+BACKLOG	./sockv6.c	29;"	d	file:
+BASE64_SIZE	./encode.c	56;"	d	file:
+BASE64decode	./encode.c	/^char* BASE64decode(char* es,int *len)$/;"	f
+BASE64encode	./encode.c	/^char* BASE64encode(char* s,int size,int *len)$/;"	f
+BOOTREPLY	./dhcp.h	12;"	d
+BOOTREQUEST	./dhcp.h	11;"	d
+BUFQ_H	./bufq.h	2;"	d
+BUFSIZ	./mmc.h	22;"	d
+BUFSIZ	./mmc.h	23;"	d
+BUFSIZE	./mmc.h	34;"	d
+BUFSIZE	./mmc.h	35;"	d
+BUFSIZE	./test/test_base64.c	29;"	d	file:
+CLI_PORT	./test/test_make_access.c	9;"	d	file:
+CLI_PORT	./test/test_make_account.c	7;"	d	file:
+CLI_PORT	./test/test_make_rrq.c	9;"	d	file:
+CMDTAB	./conf.h	/^} CMDTAB;	$/;"	t	typeref:struct:_cmdtab_
+COLCNT	./mmc.c	303;"	d	file:
+CONFLEN	./conf.h	13;"	d
+CONFTAB	./conf.h	/^} CONFTAB;$/;"	t	typeref:struct:_conftab_
+CONF_H	./conf.h	11;"	d
+COPYM	./bufq.h	46;"	d
+CPU_H	./cpu.h	2;"	d
+Counter	./mib2.h	/^typedef uint32_t 	Counter;$/;"	t
+Counter32	./mib2.h	/^typedef uint32_t    Counter32;$/;"	t
+DECLARE_VAR	./mmc.h	118;"	d
+DEFAULT_LOG_NUM	./log.h	58;"	d
+DEFAULT_LOG_PATH	./log.c	13;"	d	file:
+DEFAULT_LOG_SIZE	./log.h	53;"	d
+DEST	./ioctl_func.c	749;"	d	file:
+DEV	./ioctl_func.c	748;"	d	file:
+DFFILE	./disk.c	53;"	d	file:
+DHCPACK	./dhcp.h	23;"	d
+DHCPDECLINE	./dhcp.h	22;"	d
+DHCPDISCOVER	./dhcp.h	19;"	d
+DHCPHDRSZ	./dhcp.h	49;"	d
+DHCPINFORM	./dhcp.h	26;"	d
+DHCPNAK	./dhcp.h	24;"	d
+DHCPOFFER	./dhcp.h	20;"	d
+DHCPOPTLEN	./dhcp.h	28;"	d
+DHCPRELEASE	./dhcp.h	25;"	d
+DHCPREQUEST	./dhcp.h	21;"	d
+DHCP_BOUND	./dhcp.h	125;"	d
+DHCP_CLIENT_ID	./dhcp.h	8;"	d
+DHCP_CLIENT_PORT	./make_dhcp.h	56;"	d
+DHCP_CPORT	./dhcp.h	120;"	d
+DHCP_DOWN	./dhcp.h	140;"	d
+DHCP_H	./dhcp.h	2;"	d
+DHCP_INIT	./dhcp.h	122;"	d
+DHCP_INIT_REBOOT	./dhcp.h	129;"	d
+DHCP_LEASE	./dhcp.h	141;"	d
+DHCP_MESSAGE_TYPE	./dhcp.h	6;"	d
+DHCP_NOP	./dhcp.h	138;"	d
+DHCP_REBINDING	./dhcp.h	127;"	d
+DHCP_REBOOTING	./dhcp.h	128;"	d
+DHCP_RENEWING	./dhcp.h	126;"	d
+DHCP_REQUESTING	./dhcp.h	124;"	d
+DHCP_SELECTING	./dhcp.h	123;"	d
+DHCP_SERVER_ID	./dhcp.h	7;"	d
+DHCP_SERVER_PORT	./make_dhcp.h	55;"	d
+DHCP_SPORT	./dhcp.h	119;"	d
+DHCP_T1_TMO	./dhcp.h	147;"	d
+DHCP_T2_TMO	./dhcp.h	148;"	d
+DHCP_TMO	./dhcp.h	149;"	d
+DHCP_UP	./dhcp.h	139;"	d
+DIFF	./__time.h	86;"	d
+DISK_H	./disk.h	2;"	d
+DNS_CLASS_CH	./dns.h	113;"	d
+DNS_CLASS_CS	./dns.h	112;"	d
+DNS_CLASS_HS	./dns.h	114;"	d
+DNS_CLASS_IN	./dns.h	111;"	d
+DNS_H	./dns.h	2;"	d
+DNS_QTYPE_ALL	./dns.h	108;"	d
+DNS_QTYPE_AXFR	./dns.h	105;"	d
+DNS_QTYPE_MAILA	./dns.h	107;"	d
+DNS_QTYPE_MAILB	./dns.h	106;"	d
+DNS_TYPE_A	./dns.h	87;"	d
+DNS_TYPE_CNAME	./dns.h	91;"	d
+DNS_TYPE_HINFO	./dns.h	99;"	d
+DNS_TYPE_MB	./dns.h	93;"	d
+DNS_TYPE_MD	./dns.h	89;"	d
+DNS_TYPE_MF	./dns.h	90;"	d
+DNS_TYPE_MG	./dns.h	94;"	d
+DNS_TYPE_MINFO	./dns.h	100;"	d
+DNS_TYPE_MR	./dns.h	95;"	d
+DNS_TYPE_MX	./dns.h	101;"	d
+DNS_TYPE_NS	./dns.h	88;"	d
+DNS_TYPE_NULL	./dns.h	96;"	d
+DNS_TYPE_PTR	./dns.h	98;"	d
+DNS_TYPE_SOA	./dns.h	92;"	d
+DNS_TYPE_TXT	./dns.h	102;"	d
+DNS_TYPE_WKS	./dns.h	97;"	d
+DUPLEX_FULL	./__if.h	143;"	d
+DUPLEX_HALF	./__if.h	142;"	d
+DUPM	./bufq.h	47;"	d
+D_TTL	./dns.c	60;"	d	file:
+DeviceIndex	./mib2.h	/^typedef uint32_t    DeviceIndex;    \/* Interface index *\/$/;"	t
+DeviceName	./mib2.h	/^typedef Octet_t     DeviceName;$/;"	t
+EMS	./ntp.c	256;"	d	file:
+ERR_SYS_NORMAL	./log.h	47;"	d
+ERR_SYS_PANIC	./log.h	45;"	d
+ERR_USR_NORMAL	./log.h	48;"	d
+ERR_USR_PANIC	./log.h	46;"	d
+ETHTOOL_BUSINFO_LEN	./__if.h	69;"	d
+ETHTOOL_GCOALESCE	./__if.h	114;"	d
+ETHTOOL_GDRVINFO	./__if.h	104;"	d
+ETHTOOL_GEEPROM	./__if.h	112;"	d
+ETHTOOL_GLINK	./__if.h	111;"	d
+ETHTOOL_GMSGLVL	./__if.h	108;"	d
+ETHTOOL_GPAUSEPARAM	./__if.h	118;"	d
+ETHTOOL_GREGS	./__if.h	105;"	d
+ETHTOOL_GRINGPARAM	./__if.h	116;"	d
+ETHTOOL_GRXCSUM	./__if.h	120;"	d
+ETHTOOL_GSET	./__if.h	102;"	d
+ETHTOOL_GSG	./__if.h	124;"	d
+ETHTOOL_GSTATS	./__if.h	131;"	d
+ETHTOOL_GSTRINGS	./__if.h	129;"	d
+ETHTOOL_GTSO	./__if.h	132;"	d
+ETHTOOL_GTXCSUM	./__if.h	122;"	d
+ETHTOOL_GWOL	./__if.h	106;"	d
+ETHTOOL_NWAY_RST	./__if.h	110;"	d
+ETHTOOL_PHYS_ID	./__if.h	130;"	d
+ETHTOOL_SCOALESCE	./__if.h	115;"	d
+ETHTOOL_SEEPROM	./__if.h	113;"	d
+ETHTOOL_SMSGLVL	./__if.h	109;"	d
+ETHTOOL_SPAUSEPARAM	./__if.h	119;"	d
+ETHTOOL_SRINGPARAM	./__if.h	117;"	d
+ETHTOOL_SRXCSUM	./__if.h	121;"	d
+ETHTOOL_SSET	./__if.h	103;"	d
+ETHTOOL_SSG	./__if.h	126;"	d
+ETHTOOL_STSO	./__if.h	133;"	d
+ETHTOOL_STXCSUM	./__if.h	123;"	d
+ETHTOOL_SWOL	./__if.h	107;"	d
+ETHTOOL_TEST	./__if.h	128;"	d
+ETH_10MB	./dhcp.h	15;"	d
+ETH_10MB_LEN	./dhcp.h	16;"	d
+EXT_LOG_NUM	./log.h	55;"	d
+F	./md5.c	66;"	d	file:
+FF	./md5.c	76;"	d	file:
+FREEM	./bufq.h	48;"	d
+FSM_H	./fsm.h	14;"	d
+FSM_MAX_ACTION	./fsm.h	20;"	d
+FSM_MAX_STATE	./fsm.h	19;"	d
+G	./md5.c	67;"	d	file:
+GETS	./time.c	64;"	d	file:
+GET_VAR_ARG	./mmc.h	127;"	d
+GG	./md5.c	81;"	d	file:
+GW	./ioctl_func.c	751;"	d	file:
+Gauge	./mib2.h	/^typedef uint32_t    Gauge;$/;"	t
+H	./md5.c	68;"	d	file:
+HH	./md5.c	86;"	d	file:
+HLIST_HEAD	./list.h	607;"	d
+HLIST_HEAD_INIT	./list.h	606;"	d
+HWADDR	./ioctl_func.c	753;"	d	file:
+I	./md5.c	69;"	d	file:
+ICMP_HDRLEN	./ping.c	20;"	d	file:
+IDENTIFY	./test/test_make_access.c	10;"	d	file:
+IFFILE	./if.c	302;"	d	file:
+IFINDEX	./ioctl_func.c	752;"	d	file:
+IFMODE	./if.c	158;"	d	file:
+IFSPEED	./if.c	159;"	d	file:
+IFSZ	./__if.h	4;"	d
+IFS_LOCK	./if.c	32;"	d	file:
+IFS_UNLOCK	./if.c	33;"	d	file:
+IF_ADDR_FLD	./__if.h	8;"	d
+IF_BCAST_FLD	./__if.h	9;"	d
+IF_MAC_FLD	./__if.h	7;"	d
+IF_MASK_FLD	./__if.h	10;"	d
+IF_MAX_FLD	./__if.h	12;"	d
+IF_NAME_FLD	./__if.h	6;"	d
+II	./md5.c	91;"	d	file:
+INIT_HLIST_HEAD	./list.h	608;"	d
+INIT_HLIST_NODE	./list.h	/^static inline void INIT_HLIST_NODE(struct hlist_node *h)$/;"	f
+INIT_LIST_HEAD	./list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+INIT_SHM_LIST_HEAD	./shm_list.h	31;"	d
+IPC_H	./__ipc.h	2;"	d
+IPMSZ	./ipp.h	27;"	d
+IPPCLR	./ipp.h	33;"	d
+IPPISSET	./ipp.h	34;"	d
+IPPSET	./ipp.h	32;"	d
+IPPSZ	./ipp.h	24;"	d
+IPPZERO	./ipp.h	31;"	d
+IPP_H	./ipp.h	2;"	d
+IPP_KEY	./ipp.h	41;"	d
+IPP_PRESHARE	./ipp.h	39;"	d
+IPP_ROUND	./ipp.h	36;"	d
+IPP_SEQ	./ipp.h	37;"	d
+IPP_SHARE	./ipp.h	38;"	d
+IP_ADDR_FORMAT	./make_rrq.h	116;"	d
+IP_STATS_LINE	./ip.c	144;"	d	file:
+IP_STATS_PREFIX_LEN	./ip.c	143;"	d	file:
+IPforwarding	./dhcp.h	/^        IPforwarding            =   19,$/;"	e	enum:__anon3
+Ip6Address	./mib2.h	/^typedef struct in6_addr Ip6Address;$/;"	t	typeref:struct:in6_addr
+IpAddress	./mib2.h	/^typedef uint32_t    IpAddress;$/;"	t
+JAN_1970	./__time.h	95;"	d
+LEAP_ADDSECOND	./__time.h	109;"	d
+LEAP_DELSECOND	./__time.h	110;"	d
+LEAP_NOTINSYNC	./__time.h	111;"	d
+LEAP_NOWARNING	./__time.h	108;"	d
+LINE_COL80	./mmc.c	577;"	d	file:
+LIST_HEAD	./list.h	49;"	d
+LIST_HEAD_INIT	./list.h	47;"	d
+LIST_POISON1	./list.h	15;"	d
+LIST_POISON2	./list.h	16;"	d
+LOCAL_PORT	./test/test_timer.c	10;"	d	file:
+LOG1	./log.c	429;"	d	file:
+LOGTOD	./__time.h	87;"	d
+LOG_0	./log.h	19;"	d
+LOG_1	./log.h	20;"	d
+LOG_2	./log.h	21;"	d
+LOG_3	./log.h	22;"	d
+LOG_4	./log.h	23;"	d
+LOG_5	./log.h	24;"	d
+LOG_6	./log.h	25;"	d
+LOG_7	./log.h	26;"	d
+LOG_8	./log.h	27;"	d
+LOG_9	./log.h	28;"	d
+LOG_CONSOLE	./log.h	41;"	d
+LOG_FILE	./log.h	42;"	d
+LOG_GLOBAL	./log.h	43;"	d
+Line	./conf.c	8;"	d	file:
+Line	./interface.c	39;"	d	file:
+Line	./ip.c	35;"	d	file:
+Line	./ping.c	48;"	d	file:
+MAGIC	./dhcp.h	4;"	d
+MAKE_DHCP_H	./make_dhcp.h	2;"	d
+MAKE_RADIUS_H	./make_radius.h	2;"	d
+MAKE_RRQ_H	./make_rrq.h	2;"	d
+MASK	./ioctl_func.c	750;"	d	file:
+MAXATTR	./test/test_access.c	10;"	d	file:
+MAXCB	./test/test_cbtimer.c	4;"	d	file:
+MAXCB	./test/test_cbtimer_block.c	4;"	d	file:
+MAXDISPERSE	./__time.h	91;"	d
+MAXDISTANCE	./__time.h	93;"	d
+MAXFS	./disk.h	16;"	d
+MAXHIST	./mmc.c	225;"	d	file:
+MAXHOST	./test/test_msleep.c	3;"	d	file:
+MAXIF	./__if.h	30;"	d
+MAXIPP	./ipp.h	60;"	d
+MAXIPPLIST	./ipp.h	73;"	d
+MAXPROCESS	./shell.h	9;"	d
+MAXTOK	./mmc.c	241;"	d	file:
+MAX_CRZ_CNT	./shell.c	19;"	d	file:
+MAX_FNUM	./log.h	61;"	d
+MAX_LOG	./log.h	60;"	d
+MAX_LOG_NUM	./log.h	56;"	d
+MAX_LOG_SIZE	./log.h	50;"	d
+MAX_LOOP	./test/test_ippool.c	11;"	d	file:
+MAX_PROC_BUF	./shell.c	52;"	d	file:
+MAX_PROC_NAME	./shell.c	53;"	d	file:
+MAX_PROC_PATH	./shell.c	51;"	d	file:
+MAX_TIME_DIFF	./timer.c	380;"	d	file:
+MD5Final	./md5.c	/^void MD5Final (hash, mdContext)$/;"	f
+MD5Init	./md5.c	/^void MD5Init (mdContext)$/;"	f
+MD5Update	./md5.c	/^void MD5Update (mdContext, inBuf, inLen)$/;"	f
+MD5_CHALLENGE	./test/test_make_access.c	11;"	d	file:
+MD5_CTX	./md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1
+MID_LOG_SIZE	./log.h	52;"	d
+MINDISPERSE	./__time.h	92;"	d
+MIN_LOG_NUM	./log.h	57;"	d
+MIN_LOG_SIZE	./log.h	51;"	d
+MIP_RRQ_PORT	./make_rrq.h	20;"	d
+MMC_H	./mmc.h	11;"	d
+MODE_ACTIVE	./__time.h	117;"	d
+MODE_BCLIENT	./__time.h	124;"	d
+MODE_BROADCAST	./__time.h	121;"	d
+MODE_CLIENT	./__time.h	119;"	d
+MODE_CONTROL	./__time.h	122;"	d
+MODE_NO_PATH	./log.h	64;"	d
+MODE_PASSIVE	./__time.h	118;"	d
+MODE_PATH	./log.h	63;"	d
+MODE_PRIVATE	./__time.h	123;"	d
+MODE_SERVER	./__time.h	120;"	d
+MODE_UNSPEC	./__time.h	116;"	d
+MSGQ	./test/test_msgq.c	8;"	d	file:
+MYCONF	./test/test_conf.c	5;"	d	file:
+NBITS	./ipp.h	25;"	d
+NEGO_100F	./if.c	216;"	d	file:
+NEGO_100H	./if.c	215;"	d	file:
+NEGO_10F	./if.c	218;"	d	file:
+NEGO_10H	./if.c	217;"	d	file:
+NEGO_AUTO	./if.c	219;"	d	file:
+NTP_H	./ntp.h	2;"	d
+NTP_MAXDPOLL	./__time.h	101;"	d
+NTP_MAXPOLL	./__time.h	103;"	d
+NTP_MINDPOLL	./__time.h	100;"	d
+NTP_MINPOLL	./__time.h	102;"	d
+NTP_OLDVERSION	./__time.h	98;"	d
+NTP_POLL	./ntp.c	100;"	d	file:
+NTP_PORT	./__time.h	97;"	d
+NTP_VERSION	./__time.h	99;"	d
+NUM_OF_PACKET	./ping.c	22;"	d	file:
+OCTET_LENGTH	./mib2.h	42;"	d
+OPEN_MAX	./sock.c	240;"	d	file:
+OPEN_MAX	./sock.c	241;"	d	file:
+OPEN_MAX	./sockv6.c	246;"	d	file:
+OPEN_MAX	./sockv6.c	247;"	d	file:
+OP_IQUERY	./dns.h	63;"	d
+OP_NOTIFY	./dns.h	65;"	d
+OP_QUERY	./dns.h	62;"	d
+OP_STATUS	./dns.h	64;"	d
+OP_UPDATE	./dns.h	66;"	d
+Octet_s	./mib2.h	/^typedef struct Octet_s {$/;"	s
+Octet_t	./mib2.h	/^} Octet_t;$/;"	t	typeref:struct:Octet_s
+PADDING	./md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+PEER_H	./peer.h	2;"	d
+PEER_ICMP_DURATION	./peer.c	73;"	d	file:
+PEER_ICMP_EXPIRE	./peer.c	71;"	d	file:
+PEER_ICMP_VALID	./peer.c	72;"	d	file:
+POISON_POINTER_DELTA	./list.h	5;"	d
+POISON_POINTER_DELTA	./list.h	7;"	d
+PROC_H	./proc.h	2;"	d
+PROC_LOCK	./shell.h	48;"	d
+PROC_MUTEX_INIT	./shell.h	47;"	d
+PROC_UNLOCK	./shell.h	49;"	d
+PW_ACCESS_ACCEPT	./radius.h	43;"	d
+PW_ACCESS_CHALLENGE	./radius.h	47;"	d
+PW_ACCESS_REJECT	./radius.h	44;"	d
+PW_ACCESS_REQUEST	./radius.h	42;"	d
+PW_ACCOUNTING_REQUEST	./radius.h	45;"	d
+PW_ACCOUNTING_RESPONSE	./radius.h	46;"	d
+PW_ADMIN_REBOOT	./radius.h	88;"	d
+PW_ADMIN_RESET	./radius.h	87;"	d
+PW_CALLBACK	./radius.h	97;"	d
+PW_HOST_REQUEST	./radius.h	99;"	d
+PW_IDLE_TIMEOUT	./radius.h	85;"	d
+PW_LOST_CARRIER	./radius.h	83;"	d
+PW_LOST_SERVICE	./radius.h	84;"	d
+PW_NAS_ERROR	./radius.h	90;"	d
+PW_NAS_REBOOT	./radius.h	92;"	d
+PW_NAS_REQUEST	./radius.h	91;"	d
+PW_PORT_ERROR	./radius.h	89;"	d
+PW_PORT_PREE	./radius.h	94;"	d
+PW_PORT_SUSP	./radius.h	95;"	d
+PW_PORT_UNN	./radius.h	93;"	d
+PW_SERVICE_UNA	./radius.h	96;"	d
+PW_SESS_TIMEOUT	./radius.h	86;"	d
+PW_STATUS_ACCOUNTING_OFF	./radius.h	107;"	d
+PW_STATUS_ACCOUNTING_ON	./radius.h	106;"	d
+PW_STATUS_INIT	./radius.h	102;"	d
+PW_STATUS_INTERIM	./radius.h	105;"	d
+PW_STATUS_START	./radius.h	103;"	d
+PW_STATUS_STOP	./radius.h	104;"	d
+PW_TYPE_DATE	./radius.h	113;"	d
+PW_TYPE_INTEGER	./radius.h	111;"	d
+PW_TYPE_IPADDR	./radius.h	112;"	d
+PW_TYPE_STRING	./radius.h	110;"	d
+PW_USER_ERROR	./radius.h	98;"	d
+PW_USER_REQUEST	./radius.h	82;"	d
+PhysAddress	./mib2.h	/^typedef Octet_t     PhysAddress;$/;"	t
+QR_QUERY	./dns.h	59;"	d
+QR_RESPONSE	./dns.h	60;"	d
+RADIUS_H	./radius.h	2;"	d
+RAD_SEND_BUFFER_SIZE	./radius.h	37;"	d
+RCV_DHCPACK	./dhcp.h	145;"	d
+RCV_DHCPNAK	./dhcp.h	146;"	d
+RCV_DHCPOFFER	./dhcp.h	144;"	d
+RC_BAD_ALG	./dns.h	84;"	d
+RC_BAD_KEY	./dns.h	80;"	d
+RC_BAD_MODE	./dns.h	82;"	d
+RC_BAD_NAME	./dns.h	83;"	d
+RC_BAD_TIME	./dns.h	81;"	d
+RC_BAD_VERS	./dns.h	79;"	d
+RC_FORMAT_ERROR	./dns.h	69;"	d
+RC_NAME_ERROR	./dns.h	71;"	d
+RC_NOT_AUTH	./dns.h	77;"	d
+RC_NOT_IMPLEMENTED	./dns.h	72;"	d
+RC_NOT_ZONE	./dns.h	78;"	d
+RC_NO_ERROR	./dns.h	68;"	d
+RC_NX_RRSET	./dns.h	76;"	d
+RC_REFUSED	./dns.h	73;"	d
+RC_SERVER_FAILURE	./dns.h	70;"	d
+RC_YX_DOMAIN	./dns.h	74;"	d
+RC_YX_RRSET	./dns.h	75;"	d
+ROTATE_LEFT	./md5.c	72;"	d	file:
+S11	./md5.c	211;"	d	file:
+S12	./md5.c	212;"	d	file:
+S13	./md5.c	213;"	d	file:
+S14	./md5.c	214;"	d	file:
+S21	./md5.c	233;"	d	file:
+S22	./md5.c	234;"	d	file:
+S23	./md5.c	235;"	d	file:
+S24	./md5.c	236;"	d	file:
+S31	./md5.c	255;"	d	file:
+S32	./md5.c	256;"	d	file:
+S33	./md5.c	257;"	d	file:
+S34	./md5.c	258;"	d	file:
+S41	./md5.c	277;"	d	file:
+S42	./md5.c	278;"	d	file:
+S43	./md5.c	279;"	d	file:
+S44	./md5.c	280;"	d	file:
+SHARED	./test/test_shm.c	5;"	d	file:
+SHELL_H	./shell.h	2;"	d
+SHM_LIST_HEAD	./shm_list.h	28;"	d
+SHM_LIST_HEAD_INIT	./shm_list.h	26;"	d
+SND_DHCPDISCOVER	./dhcp.h	142;"	d
+SND_DHCPREQUEST	./dhcp.h	143;"	d
+SOCK_H	./sock.h	2;"	d
+SOPASS_MAX	./__if.h	86;"	d
+SO_IS_95C	./radius.h	50;"	d
+SPEED_10	./__if.h	136;"	d
+SPEED_100	./__if.h	137;"	d
+SPEED_1000	./__if.h	138;"	d
+SPEED_10000	./__if.h	139;"	d
+SQRT	./__time.h	85;"	d
+SQUARE	./__time.h	84;"	d
+STI_MIB2_H	./mib2.h	2;"	d
+SVR_PORT	./test/test_make_rrq.c	10;"	d	file:
+SZ_12	./radius.h	121;"	d
+SZ_15	./radius.h	120;"	d
+SZ_64	./radius.h	119;"	d
+SZ_8	./radius.h	122;"	d
+SZ_DATE	./radius.h	118;"	d
+SZ_INTEGER	./radius.h	116;"	d
+SZ_IPADDR	./radius.h	117;"	d
+TECH_MOBILE_IP	./radius.h	53;"	d
+TEST_LOG0	./log.c	427;"	d	file:
+TEST_LOG0	./test/test_log.c	4;"	d	file:
+TEST_LOG1	./log.c	428;"	d	file:
+TEST_LOG1	./test/test_log.c	5;"	d	file:
+THASH_TERM	./timer.c	98;"	d	file:
+THR_0	./log.h	30;"	d
+THR_1	./log.h	31;"	d
+THR_2	./log.h	32;"	d
+THR_3	./log.h	33;"	d
+THR_4	./log.h	34;"	d
+THR_5	./log.h	35;"	d
+THR_6	./log.h	36;"	d
+THR_7	./log.h	37;"	d
+THR_8	./log.h	38;"	d
+THR_9	./log.h	39;"	d
+TIMEOF_DAYLEN	./ping.c	21;"	d	file:
+TIMER_H	./timer.h	2;"	d
+TIMER_HASH_SIZE	./timer.c	29;"	d	file:
+TIMER_KEY_SIZE	./timer.c	30;"	d	file:
+TIMER_LOCK	./timer.h	10;"	d
+TIMER_UNLOCK	./timer.h	11;"	d
+TM_MIN	./cpu.c	43;"	d	file:
+TM_SEC	./cpu.c	44;"	d	file:
+TOKLEN	./mmc.c	242;"	d	file:
+TV_ROUNDBIT	./time.c	434;"	d	file:
+TV_SHIFT	./time.c	433;"	d	file:
+T_COMMAND	./mmc.h	32;"	d
+T_IPADDR	./mmc.h	29;"	d
+T_NONE	./mmc.h	28;"	d
+T_NUMERIC	./mmc.h	30;"	d
+T_STRING	./mmc.h	31;"	d
+TimeTicks	./mib2.h	/^typedef unsigned long TimeTicks;$/;"	t
+Transform	./md5.c	/^static void Transform (buf, in)$/;"	f	file:
+U16	./__if.h	45;"	d
+U16	./ioctl_func.h	38;"	d
+U32	./__if.h	41;"	d
+U32	./ioctl_func.h	34;"	d
+U8	./__if.h	49;"	d
+U8	./ioctl_func.h	42;"	d
+UINT4	./md5.h	/^typedef unsigned int UINT4;$/;"	t
+UL	./md5.c	100;"	d	file:
+UL	./md5.c	98;"	d	file:
+ULOGTOD	./__time.h	90;"	d
+UNIVAR	./__time.h	89;"	d
+VID_3GPP2	./radius.h	39;"	d
+WIDTH	./dump.c	17;"	d	file:
+YEAR_BREAK	./__time.h	21;"	d
+YEAR_PIVOT	./__time.h	25;"	d
+_EMS_LOG_H	./log.h	11;"	d
+_IFADDR	./if.c	291;"	d	file:
+_IFBCAST	./if.c	293;"	d	file:
+_IFBFLAG	./if.c	300;"	d	file:
+_IFCLEAR	./if.c	294;"	d	file:
+_IFLFLAG	./if.c	297;"	d	file:
+_IFMAC	./if.c	290;"	d	file:
+_IFMASK	./if.c	292;"	d	file:
+_IFMFLAG	./if.c	299;"	d	file:
+_IFMTU	./if.c	289;"	d	file:
+_IFNAME	./if.c	288;"	d	file:
+_IFRFLAG	./if.c	298;"	d	file:
+_IFUFLAG	./if.c	296;"	d	file:
+_IOCTL_FUNC_H_	./ioctl_func.h	19;"	d
+_LINUX_ETHTOOL_H	./__if.h	38;"	d
+_LINUX_LIST_H	./list.h	2;"	d
+_SHM_LIST_H	./shm_list.h	20;"	d
+_STDARG_H_	./_stdarg.h	2;"	d
+__IF_H	./__if.h	2;"	d
+__MD5_INCLUDE__	./md5.h	57;"	d
+__P	./_stdarg.h	10;"	d
+__P	./_stdarg.h	14;"	d
+__P	./_stdarg.h	4;"	d
+__TIME_H	./__time.h	2;"	d
+__V	./_stdarg.h	13;"	d
+__V	./_stdarg.h	5;"	d
+__V	./_stdarg.h	9;"	d
+__bufq_add	./bufq.c	/^void __bufq_add(bufq_t* q,umsg_t *mp)$/;"	f
+__bufq_sub	./bufq.c	/^void __bufq_sub(bufq_t* q,umsg_t *mp)$/;"	f
+__dump	./dump.c	/^__dump(char *s,int len,char *sp)$/;"	f
+__ensure	./bufq.h	39;"	d
+__hlist_del	./list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f
+__howmany	./ipp.h	29;"	d
+__if	./__if.h	/^typedef struct __if {$/;"	s
+__list_add	./list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_cut_position	./list.h	/^static inline void __list_cut_position(struct list_head *list,$/;"	f
+__list_del	./list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_del_entry	./list.h	/^static inline void __list_del_entry(struct list_head *entry)$/;"	f
+__list_splice	./list.h	/^static inline void __list_splice(const struct list_head *list,$/;"	f
+__shm_list_add	./shm_list.h	/^static __inline__ void __shm_list_add(void* ptr$/;"	f
+__shm_list_del	./shm_list.h	/^static __inline__ void __shm_list_del(void* ptr$/;"	f
+_cmdtab_	./conf.h	/^typedef struct _cmdtab_ {$/;"	s
+_conftab_	./conf.h	/^typedef struct _conftab_ {$/;"	s
+_hinit	./timer.c	/^_hinit(void)$/;"	f	file:
+_hist_	./mmc.h	/^typedef struct _hist_ {$/;"	s
+_internal_time	./timer.c	/^struct timeb _internal_time;$/;"	v	typeref:struct:timeb
+_ipp	./ipp.h	/^typedef struct _ipp {$/;"	s
+_ipp_t	./ipp.h	/^}_ipp_t;$/;"	t	typeref:struct:_ipp
+_kfind	./timer.c	/^_kfind(char* k, int n)$/;"	f	file:
+_khash	./timer.c	/^_khash(tentry_t* te)$/;"	f	file:
+_khfn	./timer.c	/^_khfn(char* k, int l)$/;"	f	file:
+_khlist	./timer.c	/^static thash_t _khlist[TIMER_HASH_SIZE]; \/* key hash *\/$/;"	v	file:
+_kunhash	./timer.c	/^_kunhash(tentry_t* te)$/;"	f	file:
+_list_for_each_safe_prev	./timer.c	32;"	d	file:
+_log	./log.c	/^log_t _log[MAX_LOG];$/;"	v
+_mmc	./test/mmc.c	/^mmc_t   _mmc[]={$/;"	v
+_mmc_	./mmc.h	/^typedef struct _mmc_ {$/;"	s
+_peer_lock	./peer.c	/^pthread_mutex_t _peer_lock = PTHREAD_MUTEX_INITIALIZER;;$/;"	v
+_peercnt	./peer.c	/^int _peercnt=0;$/;"	v
+_peerlst	./peer.c	/^int _peerlst[256];$/;"	v
+_pt_offset	./shm_list.h	35;"	d
+_saddr	./ioctl_func.h	/^_saddr(struct sockaddr_in* sin, uint32_t addr, uint16_t port)$/;"	f
+_shwaddr	./ioctl_func.h	/^_shwaddr(struct sockaddr* sa, char* hwaddr)$/;"	f
+_thash	./timer.c	/^_thash(tentry_t* te)$/;"	f	file:
+_thfn	./timer.c	/^_thfn(struct timeb* t)$/;"	f	file:
+_thlist	./timer.c	/^static thash_t _thlist[TIMER_HASH_SIZE]; \/* time hash *\/$/;"	v	file:
+_token_	./mmc.h	/^typedef struct _token_ {$/;"	s
+_tqueue	./timer.c	/^static struct list_head _tqueue;$/;"	v	typeref:struct:list_head	file:
+_tsync	./timer.c	/^_tsync(int time, int mtime)$/;"	f	file:
+_tunhash	./timer.c	/^_tunhash(tentry_t* te)$/;"	f	file:
+aa	./dns.h	/^						aa:1,		\/* Authoritative		*\/$/;"	m	struct:dns
+aa	./dns.h	/^						aa:1,$/;"	m	struct:dns
+act	./dhcp.h	/^	unsigned int act;$/;"	m	struct:dhcp_fsm
+act	./fsm.h	/^	fsmaction_t 	act[FSM_MAX_ACTION];$/;"	m	struct:fsmstate
+ad	./dns.h	/^						ad:1,		\/* 						*\/$/;"	m	struct:dns
+ad	./dns.h	/^						ad:1,$/;"	m	struct:dns
+adcount	./dns.h	/^	unsigned short		adcount;	\/* #RRs in the additional data section 	*\/$/;"	m	struct:dnsupd
+add_dhcp_opt	./dhcp.c	/^int add_dhcp_opt(unsigned char *op,unsigned char code,char len,char *data)$/;"	f
+add_dhcp_option_int	./make_dhcp.c	/^int add_dhcp_option_int(char *buf, int len, int code, int length, u_int addr)$/;"	f
+add_dhcp_option_string	./make_dhcp.c	/^int add_dhcp_option_string(char *buf, int len, int code, int length, char *value)$/;"	f
+add_dhcp_option_type	./make_dhcp.c	/^add_dhcp_option_type(char *buf, int len, int code, int length, int type)$/;"	f
+add_general_mip_ext	./make_rrq.c	/^int add_general_mip_ext(char *buf, int len, int subtype, int spi, char *key)$/;"	f
+add_my_ext	./make_rrq.c	/^int add_my_ext(char *buf, int len, int type, int length, char *temp_buf)$/;"	f
+add_myint_ext	./make_rrq.c	/^int add_myint_ext(char *buf, int len, int type, int length, unsigned int value)$/;"	f
+add_nai_extension	./make_rrq.c	/^int add_nai_extension(char *buf, int len, int length, char *mn_nai)$/;"	f
+add_radius_att_int	./make_radius.c	/^int add_radius_att_int(char *buf, int len, int type, uint32_t addr)$/;"	f
+add_radius_att_string	./make_radius.c	/^int add_radius_att_string(char *buf, int len, int type, int length, char *tmpbuf)$/;"	f
+add_radius_att_vendor_int	./make_radius.c	/^int add_radius_att_vendor_int(char *buf,int len,uint32_t v_id,int v_type,uint32_t addr)$/;"	f
+add_radius_att_vendor_string	./make_radius.c	/^int add_radius_att_vendor_string(char *buf,int len,uint32_t v_id,int v_type,int v_len,char *tempbuf)$/;"	f
+add_radius_vattr	./radius.c	/^int add_radius_vattr(char *buf,int type,int len,void *val)$/;"	f
+add_rrq_extension	./make_rrq.c	/^int add_rrq_extension(char *buf,int len, char type, int spi, char *key)$/;"	f
+add_sattr	./radius.c	/^int add_sattr(char *buf,int type,int len,void *val)$/;"	f
+add_udp_tunnel_request	./make_rrq.c	/^int add_udp_tunnel_request(char *buf, int len, int f, int r, int encap)$/;"	f
+addlabel	./conf.c	/^addlabel(char *path,char* label)$/;"	f
+addr	./__if.h	/^	unsigned int 	addr;		\/* IPv4 address			*\/$/;"	m	struct:__if
+addr	./ipp.h	/^	unsigned int addr;$/;"	m	struct:_ipp
+addr	./make_dhcp.h	/^	uint32_t			addr;$/;"	m	struct:dhcpopt_int
+addr	./ntp.h	/^    unsigned int addr;$/;"	m	struct:ntph
+addr	./peer.h	/^    unsigned int    addr;$/;"	m	struct:peer
+address	./make_radius.h	/^    uint32_t        address;$/;"	m	struct:att_addr
+advertising	./__if.h	/^ 	u32 advertising;    \/* Features this interface advertises *\/$/;"	m	struct:ethtool_cmd
+allSubnetsLocal	./dhcp.h	/^        allSubnetsLocal         =   27,$/;"	e	enum:__anon3
+alloc_umsg	./bufq.c	/^umsg_t* alloc_umsg(int n)$/;"	f
+ancount	./dns.h	/^	unsigned short		ancount;	\/* #RRs in the answer section 			*\/$/;"	m	struct:dns
+arcount	./dns.h	/^	unsigned short		arcount;	\/* #RRs in the additional data section 	*\/$/;"	m	struct:dns
+args_command	./premmc.c	/^void args_command(const char* va_alist, ...)$/;"	f
+args_command	./test/premmc.c	/^void args_command(const char* va_alist, ...)$/;"	f
+args_ip	./premmc.c	/^void args_ip(const char* va_alist, ...)$/;"	f
+args_ip	./test/premmc.c	/^void args_ip(const char* va_alist, ...)$/;"	f
+args_numeric	./premmc.c	/^void args_numeric(const char* va_alist, ...)$/;"	f
+args_numeric	./test/premmc.c	/^void args_numeric(const char* va_alist, ...)$/;"	f
+args_string	./premmc.c	/^void args_string(const char* va_alist, ...)$/;"	f
+args_string	./test/premmc.c	/^void args_string(const char* va_alist, ...)$/;"	f
+arpCacheTimeout	./dhcp.h	/^        arpCacheTimeout         =   35,$/;"	e	enum:__anon3
+att	./make_radius.h	/^typedef struct att{$/;"	s
+att_addr	./make_radius.h	/^typedef struct att_addr{$/;"	s
+att_addr_t	./make_radius.h	/^} att_addr_t;$/;"	t	typeref:struct:att_addr
+att_length	./make_radius.h	/^	u_char		att_length;$/;"	m	struct:vendor_int
+att_length	./make_radius.h	/^	u_char		att_length;$/;"	m	struct:vendor_string
+att_length	./make_radius.h	/^    u_char          att_length;$/;"	m	struct:att
+att_length	./make_radius.h	/^    u_char          att_length;$/;"	m	struct:att_addr
+att_t	./make_radius.h	/^} att_t;$/;"	t	typeref:struct:att
+attr	./radius.h	/^typedef struct attr {$/;"	s
+attr_t	./radius.h	/^} attr_t;$/;"	t	typeref:struct:attr
+auth	./make_rrq.h	/^	char			auth[16];$/;"	m	struct:general
+auth	./radius.h	/^	unsigned char	auth[16];$/;"	m	struct:radius
+authenticator	./make_radius.h	/^    u_char          authenticator[16];$/;"	m	struct:rad
+authenticator	./make_rrq.h	/^	unsigned char	authenticator[16];$/;"	m	struct:extension
+autoneg	./__if.h	/^	u8  autoneg;    \/* Enable or disable autonegotiation *\/$/;"	m	struct:ethtool_cmd
+avail	./disk.h	/^	unsigned long	avail;	\/* avail size *\/$/;"	m	struct:disk
+b	./__if.h	/^			b:1,$/;"	m	struct:__if
+background	./proc.c	/^background()$/;"	f
+bcast	./__if.h	/^	unsigned int 	bcast;		\/* broadcast address	*\/$/;"	m	struct:__if
+bits	./make_rrq.h	/^	unsigned char 	bits;$/;"	m	struct:req_format
+block	./disk.h	/^	int		block;			\/* block size *\/$/;"	m	struct:disk
+bootFileSize	./dhcp.h	/^        bootFileSize            =   13,$/;"	e	enum:__anon3
+broadcastAddr	./dhcp.h	/^        broadcastAddr           =   28,$/;"	e	enum:__anon3
+btrim	./conf.c	/^void btrim(char *s)$/;"	f
+btrip	./conf.c	/^btrip(char *s)$/;"	f
+buf	./make_rrq.h	/^	char buf[16];$/;"	m	struct:my_ext
+buf	./md5.h	/^  UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon1
+bufq	./bufq.h	/^struct bufq {$/;"	s
+bufq_append	./bufq.c	/^void bufq_append(bufq_t* q,umsg_t *mp,umsg_t *np)$/;"	f
+bufq_cond_mutex	./bufq.c	/^pthread_mutex_t bufq_cond_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+bufq_dequeue	./bufq.c	/^umsg_t* bufq_dequeue(bufq_t* q)$/;"	f
+bufq_freehead	./bufq.c	/^void bufq_freehead(bufq_t* q)$/;"	f
+bufq_head	./bufq.c	/^umsg_t* bufq_head(bufq_t* q)$/;"	f
+bufq_ifs_mutex	./if.c	/^pthread_mutex_t bufq_ifs_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+bufq_init	./bufq.c	/^void bufq_init(bufq_t *q)$/;"	f
+bufq_insert	./bufq.c	/^void bufq_insert(bufq_t* q,umsg_t *mp,umsg_t *np)$/;"	f
+bufq_length	./bufq.c	/^size_t bufq_length(bufq_t* q)$/;"	f
+bufq_purge	./bufq.c	/^void bufq_purge(bufq_t* q)$/;"	f
+bufq_queue	./bufq.c	/^void bufq_queue(bufq_t* q,umsg_t *mp)$/;"	f
+bufq_queue_head	./bufq.c	/^void bufq_queue_head(bufq_t* q,umsg_t *mp)$/;"	f
+bufq_resupply	./bufq.c	/^umsg_t* bufq_resupply(bufq_t* q,umsg_t* mp,int maxsize,int maxcount)$/;"	f
+bufq_size	./bufq.c	/^size_t bufq_size(bufq_t* q)$/;"	f
+bufq_supply	./bufq.c	/^void bufq_supply(bufq_t* q,umsg_t* mp)$/;"	f
+bufq_t	./bufq.h	/^typedef struct bufq bufq_t;$/;"	t	typeref:struct:bufq
+bufq_tail	./bufq.c	/^umsg_t* bufq_tail(bufq_t* q)$/;"	f
+bufq_unlink	./bufq.c	/^umsg_t* bufq_unlink(bufq_t* q,umsg_t *mp)$/;"	f
+buildicmp	./ping.c	/^int buildicmp(char *s,short id,short seq,int n)$/;"	f
+bus_info	./__if.h	/^    char    bus_info[ETHTOOL_BUSINFO_LEN];  \/* Bus info for this IF. *\/$/;"	m	struct:ethtool_drvinfo
+c	./mmc.h	/^    char c[BUFSIZE];            \/* comment for help         *\/$/;"	m	struct:_mmc_
+cb_fd	./timer.c	/^int cb_fd = 0;$/;"	v
+cb_snd	./timer.c	/^struct sockaddr_in cb_snd;$/;"	v	typeref:struct:sockaddr_in
+cb_thr	./timer.c	/^int cb_thr = 0;$/;"	v
+cb_tid	./timer.c	/^int cb_tid = 0;$/;"	v
+cbfn	./test/test_cbtimer.c	/^void cbfn(char* d)$/;"	f
+cbfn	./test/test_cbtimer_block.c	/^void cbfn(char* d)$/;"	f
+ccpu	./shell.h	/^	double 	ccpu;$/;"	m	struct:proc
+cd	./dns.h	/^						cd:1,		\/* 						*\/$/;"	m	struct:dns
+cd	./dns.h	/^						cd:1,$/;"	m	struct:dns
+chaddr	./dhcp.h	/^    unsigned char 		chaddr[16];$/;"	m	struct:dhcp
+chaddr	./make_dhcp.h	/^    char 				chaddr[16];$/;"	m	struct:dhcpformat
+challenge	./make_rrq.h	/^	char			challenge[64];$/;"	m	struct:challenge_extension
+challenge_extension	./make_rrq.h	/^typedef struct challenge_extension{$/;"	s
+challenge_t	./make_rrq.h	/^} challenge_t;$/;"	t	typeref:struct:challenge_extension
+check_date	./log.c	/^int check_date(int idx)$/;"	f
+check_fsize	./log.c	/^int check_fsize(int idx)$/;"	f
+check_path	./log.c	/^int check_path(int idx)$/;"	f
+chkhist	./mmc.c	/^chkhist(char *cmd,int cont)$/;"	f
+chksh	./mmc.c	/^int chksh(char* cmd)$/;"	f
+ciaddr	./dhcp.h	/^    unsigned int 		ciaddr;$/;"	m	struct:dhcp
+ciaddr	./make_dhcp.h	/^    uint32_t 			ciaddr;$/;"	m	struct:dhcpformat
+cipp	./ipp.h	/^	int 		cipp;$/;"	m	struct:ipplist
+clkid	./__time.h	/^	unsigned int  	clkid;		\/* Refernced Clock Identifier 	*\/$/;"	m	struct:ntp
+cmd	./__if.h	/^	u32 cmd;$/;"	m	struct:ethtool_drvinfo
+cmd	./__if.h	/^    u32 cmd;$/;"	m	struct:ethtool_cmd
+cmd	./__if.h	/^    u32 cmd;$/;"	m	struct:ethtool_value
+cmd	./__if.h	/^    u32 cmd;$/;"	m	struct:ethtool_wolinfo
+cmd	./conf.h	/^	char cmd[CONFLEN];$/;"	m	struct:_cmdtab_
+cnt	./timer.c	/^	int cnt;$/;"	m	struct:thash	file:
+coa	./make_rrq.h	/^	uint32_t		coa;$/;"	m	struct:req_format
+code	./make_dhcp.h	/^	unsigned char		code;$/;"	m	struct:dhcpopt_string
+code	./make_dhcp.h	/^	unsigned char		code;$/;"	m	struct:dhcpopt_type
+code	./make_dhcp.h	/^	unsigned char 		code;$/;"	m	struct:dhcpopt_int
+code	./make_radius.h	/^	u_char		code;$/;"	m	struct:eap
+code	./make_radius.h	/^	u_char 		code;$/;"	m	struct:find_challenge
+code	./make_radius.h	/^    u_char          code;$/;"	m	struct:rad
+code	./make_rrq.h	/^	unsigned char code;$/;"	m	struct:rep_format
+code	./radius.h	/^	unsigned char	code;$/;"	m	struct:radius
+const	./_stdarg.h	15;"	d
+const	./mmc.h	25;"	d
+cont	./mmc.h	/^    int  cont;                  \/* continue or not          *\/$/;"	m	struct:_mmc_
+container_of	./list.h	379;"	d
+continuous	./ping.c	/^int continuous;$/;"	v
+cookie	./dhcp.h	/^    unsigned int 		cookie;$/;"	m	struct:dhcp
+cookieServer	./dhcp.h	/^        cookieServer            =   8,$/;"	e	enum:__anon3
+copy_umsg	./bufq.c	/^umsg_t* copy_umsg(char *p,int n1,int n2)$/;"	f
+cpu_15min_avg	./cpu.c	/^double 		cpu_15min_avg   = 0.0 ;$/;"	v
+cpu_1min_avg	./cpu.c	/^double 		cpu_1min_avg    = 0.0 ;$/;"	v
+cpu_5min_avg	./cpu.c	/^double 		cpu_5min_avg    = 0.0 ;$/;"	v
+cpu_60min_avg	./cpu.c	/^double 		cpu_60min_avg   = 0.0 ;$/;"	v
+cpu_count	./cpu.c	/^int         cpu_count       = 1 ;$/;"	v
+cpu_cur_idle	./cpu.c	/^unsigned int cpu_cur_idle      = 0 ;$/;"	v
+cpu_last_idle	./cpu.c	/^unsigned int cpu_last_idle     = 0 ;$/;"	v
+cpu_load_avg	./cpu.c	/^double 		cpu_load_avg    = 0.0 ;$/;"	v
+cpu_load_t	./cpu.c	/^pthread_t   cpu_load_t ;$/;"	v
+cpuload_task	./cpu.c	/^void *cpuload_task(void *arg)$/;"	f
+cputime	./shell.h	/^	unsigned long cputime;$/;"	m	struct:proc
+crz_cnt	./shell.h	/^    int     crz_cnt;$/;"	m	struct:proc
+ct	./bufq.h	/^	time_t	ct	;			\/* messae created timestamp		*\/$/;"	m	struct:umsg
+cur	./ipp.h	/^	int  			cur;$/;"	m	struct:ipph
+curr_state	./fsm.h	/^	int 		curr_state;$/;"	m	struct:fsm
+d	./timer.c	/^	void* 				d; 					\/* data *\/$/;"	m	struct:tentry	file:
+daemon_conf	./shell.c	/^int daemon_conf(char* f, char* tag)$/;"	f
+daemon_dn	./shell.c	/^int daemon_dn(char* name)$/;"	f
+daemon_start	./shell.c	/^int daemon_start(int i)$/;"	f
+daemon_stat	./shell.c	/^int daemon_stat()$/;"	f
+daemon_up	./shell.c	/^int daemon_up(char* name)$/;"	f
+data	./__if.h	/^    u32 data;$/;"	m	struct:ethtool_value
+data	./make_radius.h	/^	char		data[63];$/;"	m	struct:make_challenge
+date	./log.h	/^	char date[BUFSIZ];$/;"	m	struct:__anon2
+dcpu	./shell.h	/^	unsigned long dcpu;	$/;"	m	struct:proc
+defaultIPTTL	./dhcp.h	/^        defaultIPTTL            =   23,$/;"	e	enum:__anon3
+del_cb_timeout	./timer.c	/^del_cb_timeout(int tid)$/;"	f
+del_t	./test/test_timer.c	/^void del_t(char *s)$/;"	f
+del_timeout	./timer.c	/^del_timeout(char* key, int len)$/;"	f
+depth	./mmc.h	/^    int  depth;                 \/* mmc command depth        *\/$/;"	m	struct:_mmc_
+dhcp	./dhcp.h	/^typedef struct dhcp {$/;"	s
+dhcpClassIdentifier	./dhcp.h	/^        dhcpClassIdentifier     =   60,$/;"	e	enum:__anon3
+dhcpClientIdentifier	./dhcp.h	/^        dhcpClientIdentifier    =   61,$/;"	e	enum:__anon3
+dhcpIPaddrLeaseTime	./dhcp.h	/^        dhcpIPaddrLeaseTime     =   51,$/;"	e	enum:__anon3
+dhcpMaxMsgSize	./dhcp.h	/^        dhcpMaxMsgSize          =   57,$/;"	e	enum:__anon3
+dhcpMessageType	./dhcp.h	/^        dhcpMessageType         =   53,$/;"	e	enum:__anon3
+dhcpMsg	./dhcp.h	/^        dhcpMsg                 =   56,$/;"	e	enum:__anon3
+dhcpOptionOverload	./dhcp.h	/^        dhcpOptionOverload      =   52,$/;"	e	enum:__anon3
+dhcpParamRequest	./dhcp.h	/^        dhcpParamRequest        =   55,$/;"	e	enum:__anon3
+dhcpRequestedIPaddr	./dhcp.h	/^        dhcpRequestedIPaddr     =   50,$/;"	e	enum:__anon3
+dhcpServerIdentifier	./dhcp.h	/^        dhcpServerIdentifier    =   54,$/;"	e	enum:__anon3
+dhcpT1value	./dhcp.h	/^        dhcpT1value             =   58,$/;"	e	enum:__anon3
+dhcpT2value	./dhcp.h	/^        dhcpT2value             =   59,$/;"	e	enum:__anon3
+dhcp_ack_build	./dhcp.c	/^int dhcp_ack_build($/;"	f
+dhcp_discover_build	./dhcp.c	/^int dhcp_discover_build($/;"	f
+dhcp_fsm	./dhcp.h	/^typedef struct dhcp_fsm {$/;"	s
+dhcp_fsm_t	./dhcp.h	/^} dhcp_fsm_t;$/;"	t	typeref:struct:dhcp_fsm
+dhcp_nak_build	./dhcp.c	/^int dhcp_nak_build($/;"	f
+dhcp_offer_build	./dhcp.c	/^int dhcp_offer_build($/;"	f
+dhcp_relay_build	./dhcp.c	/^int dhcp_relay_build($/;"	f
+dhcp_release_build	./dhcp.c	/^int dhcp_release_build($/;"	f
+dhcp_req_build	./dhcp.c	/^int dhcp_req_build($/;"	f
+dhcp_t	./dhcp.h	/^} dhcp_t;$/;"	t	typeref:struct:dhcp
+dhcp_t	./make_dhcp.h	/^} dhcp_t;$/;"	t	typeref:struct:dhcpformat
+dhcpformat	./make_dhcp.h	/^typedef struct dhcpformat {$/;"	s
+dhcpfsm	./dhcp.c	/^dhcp_fsm_t dhcpfsm[]=$/;"	v
+dhcpopt_int	./make_dhcp.h	/^typedef struct dhcpopt_int {$/;"	s
+dhcpopt_int_t	./make_dhcp.h	/^} dhcpopt_int_t;$/;"	t	typeref:struct:dhcpopt_int
+dhcpopt_string	./make_dhcp.h	/^typedef struct dhcpopt_string {$/;"	s
+dhcpopt_string_t	./make_dhcp.h	/^} dhcpopt_string_t;$/;"	t	typeref:struct:dhcpopt_string
+dhcpopt_type	./make_dhcp.h	/^typedef struct dhcpopt_type {$/;"	s
+dhcpopt_type_t	./make_dhcp.h	/^} dhcpopt_type_t;		$/;"	t	typeref:struct:dhcpopt_type
+digest	./md5.h	/^  unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon1
+dirty	./timer.c	/^	int dirty;$/;"	m	struct:thash	file:
+disk	./disk.h	/^typedef struct disk {$/;"	s
+disk_t	./disk.h	/^} disk_t;$/;"	t	typeref:struct:disk
+dist	./__time.h	/^	unsigned int  	dist;		\/* Synchronizing Distance		*\/$/;"	m	struct:ntp
+dns	./dns.h	/^typedef struct dns {$/;"	s
+dnsServer	./dhcp.h	/^        dnsServer               =   6,$/;"	e	enum:__anon3
+dns_hdr_prn	./dns.c	/^void dns_hdr_prn (dns_t *dp)$/;"	f
+dns_query	./dns.c	/^int dns_query(char* zone,unsigned int *addr)$/;"	f
+dns_release_build	./dns.c	/^int dns_release_build($/;"	f
+dns_t	./dns.h	/^} dns_t;$/;"	t	typeref:struct:dns
+dns_update_build	./dns.c	/^int dns_update_build ($/;"	f
+dnsupd	./dns.h	/^typedef struct dnsupd {$/;"	s
+dnsupd_t	./dns.h	/^} dnsupd_t;$/;"	t	typeref:struct:dnsupd
+domainName	./dhcp.h	/^        domainName              =   15,$/;"	e	enum:__anon3
+drift	./__time.h	/^	unsigned int  	drift;		\/* Estimated Drift Rate 		*\/$/;"	m	struct:ntp
+driver	./__if.h	/^	char    driver[32]; \/* driver short name, "tulip", "eepro100" *\/$/;"	m	struct:ethtool_drvinfo
+dstattask	./shell.c	/^void *dstattask(void *arg)$/;"	f
+dump	./dump.c	/^dump(char *s,int len)$/;"	f
+dumphex	./dump.c	/^dumphex(char *s,int len)$/;"	f
+dupl_umsg	./bufq.c	/^umsg_t* dupl_umsg(umsg_t* p)$/;"	f
+duplex	./__if.h	/^	u8  duplex;     \/* Duplex, half or full *\/$/;"	m	struct:ethtool_cmd
+eap	./make_radius.h	/^typedef struct eap{$/;"	s
+eap_t	./make_radius.h	/^} eap_t;$/;"	t	typeref:struct:eap
+eedump_len	./__if.h	/^    u32 eedump_len; \/* Size of data from ETHTOOL_GEEPROM (bytes) *\/$/;"	m	struct:ethtool_drvinfo
+encapsulation	./make_rrq.h	/^	uint8_t encapsulation;$/;"	m	struct:udp_request
+end	./ipp.h	/^	int  			end;$/;"	m	struct:ipph
+endOption	./dhcp.h	/^        endOption               =  255$/;"	e	enum:__anon3
+end_opt	./dhcp.c	/^int end_opt(unsigned char **op)$/;"	f
+ensure	./bufq.h	42;"	d
+eprintf	./log.c	/^eprintf(int idx, char* fmt,...)$/;"	f
+err_fname	./log.h	/^	char err_fname[BUFSIZ];$/;"	m	struct:__anon2
+err_level	./log.h	/^	int err_level;$/;"	m	struct:__anon2
+errprn	./log.c	/^errprn(int idx, int level,int tid,int err_num,char* fmt,...)$/;"	f
+ethernetEncapsulation	./dhcp.h	/^        ethernetEncapsulation   =   36,$/;"	e	enum:__anon3
+ethtool_cmd	./__if.h	/^struct ethtool_cmd {$/;"	s
+ethtool_drvinfo	./__if.h	/^struct ethtool_drvinfo {$/;"	s
+ethtool_value	./__if.h	/^struct ethtool_value {$/;"	s
+ethtool_wolinfo	./__if.h	/^struct ethtool_wolinfo {$/;"	s
+etime	./shell.h	/^    time_t  etime;$/;"	m	struct:proc
+event	./dhcp.h	/^	unsigned int event;$/;"	m	struct:dhcp_fsm
+exeproc	./proc.c	/^exeproc(char* p,char* s,char* tag,char* envp[])$/;"	f
+exitmmckey	./mmc.c	/^exitmmckey()$/;"	f
+extension	./make_rrq.h	/^typedef struct extension{$/;"	s
+extension_t	./make_rrq.h	/^} extension_t;$/;"	t	typeref:struct:extension
+extentionsPath	./dhcp.h	/^        extentionsPath          =   18,$/;"	e	enum:__anon3
+f	./mmc.h	/^    char f[BUFSIZE];            \/* command parsed format    *\/$/;"	m	struct:_mmc_
+file	./dhcp.h	/^    unsigned char 		file[128];$/;"	m	struct:dhcp
+file	./make_dhcp.h	/^    char 				file[128];$/;"	m	struct:dhcpformat
+find	./make_rrq.h	/^typedef struct find{$/;"	s
+find_challenge	./make_radius.h	/^typedef struct find_challenge{$/;"	s
+find_challenge_t	./make_radius.h	/^} find_challenge_t;$/;"	t	typeref:struct:find_challenge
+find_t	./make_rrq.h	/^} find_t;$/;"	t	typeref:struct:find
+findlabel	./conf.c	/^findlabel(char* path,char* label)$/;"	f
+findlex	./mmc.c	/^findlex(int depth,char *s,char* f)$/;"	f
+findmmc	./mmc.c	/^findmmc(int depth,char *f,int *idx)$/;"	f
+findsh	./mmc.c	/^findsh(char *f, int *idx)$/;"	f
+finish_access_eap	./make_radius.c	/^int finish_access_eap(char *buf, int len, char *key, char *digest)$/;"	f
+finish_access_msg	./make_radius.c	/^int finish_access_msg(char *buf, int len)$/;"	f
+finish_account_msg	./make_radius.c	/^int finish_account_msg(char *buf, int len, char *key)$/;"	f
+first	./list.h	/^        struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+fix	./ntp.h	/^    unsigned int    fix;$/;"	m	struct:ntph
+flag	./make_rrq.h	/^	uint16_t flag;$/;"	m	struct:udp_reply
+flag	./make_rrq.h	/^	uint8_t flag;$/;"	m	struct:udp_request
+flags	./dhcp.h	/^    unsigned short 		flags;$/;"	m	struct:dhcp
+flags	./make_dhcp.h	/^    unsigned short 		flags;$/;"	m	struct:dhcpformat
+flags	./peer.h	/^    int         	flags;$/;"	m	struct:peer
+fld	./__if.h	/^	char	fld[IF_MAX_FLD][IFSZ];$/;"	m	struct:__if
+fmttm	./time.c	/^fmttm(char *fmt,char *s)$/;"	f
+fn	./timer.c	/^	void 				(*fn)(char*); 		\/* callback function *\/$/;"	m	struct:tentry	file:
+fname	./log.h	/^	char fname[BUFSIZ];		\/* Fulli Path		*\/$/;"	m	struct:__anon2
+fnum	./log.h	/^	int fnum;$/;"	m	struct:__anon2
+free	./disk.h	/^	unsigned long	free;	\/* free size *\/$/;"	m	struct:disk
+free	./ipp.h	/^	unsigned int  	free;$/;"	m	struct:ipph
+free_umsg	./bufq.c	/^void free_umsg(umsg_t *mp)$/;"	f
+freechunks	./bufq.c	/^void freechunks(umsg_t *mp)$/;"	f
+fsize	./log.h	/^	int fsize;$/;"	m	struct:__anon2
+fsm	./fsm.h	/^	fsmroot_t* 	fsm;$/;"	m	struct:fsm
+fsm	./fsm.h	/^typedef struct fsm {$/;"	s
+fsm_t	./fsm.h	/^} fsm_t;$/;"	t	typeref:struct:fsm
+fsmaction	./fsm.h	/^typedef struct fsmaction {$/;"	s
+fsmaction_t	./fsm.h	/^} fsmaction_t;$/;"	t	typeref:struct:fsmaction
+fsmfunc_t	./fsm.h	/^typedef void (*fsmfunc_t)(void*);$/;"	t
+fsmroot	./fsm.h	/^typedef struct fsmroot {$/;"	s
+fsmroot_t	./fsm.h	/^} fsmroot_t;$/;"	t	typeref:struct:fsmroot
+fsmstate	./fsm.h	/^typedef struct fsmstate {$/;"	s
+fsmstate_t	./fsm.h	/^} fsmstate_t;$/;"	t	typeref:struct:fsmstate
+func	./fsm.h	/^	fsmfunc_t 	func;$/;"	m	struct:fsmaction
+func	./mmc.h	/^    void (*func)(char*,...);    \/* callback function        *\/$/;"	m	struct:_mmc_
+fw_version	./__if.h	/^    char    fw_version[32]; \/* firmware version string, if applicable *\/$/;"	m	struct:ethtool_drvinfo
+general	./make_rrq.h	/^typedef struct general{$/;"	s
+general_t	./make_rrq.h	/^} general_t;$/;"	t	typeref:struct:general
+get_authenticator	./make_radius.c	/^int get_authenticator(char *authenticator)$/;"	f
+get_challenge	./make_radius.c	/^int get_challenge(char *buf, char *challenge)$/;"	f
+get_cpu_load	./cpu.c	/^void get_cpu_load() $/;"	f
+get_dhcp_cli_fsm	./dhcp.c	/^int get_dhcp_cli_fsm(int prev, int event, int *act, int *next)$/;"	f
+get_dhcp_msgtype	./dhcp.c	/^int get_dhcp_msgtype(unsigned char* op)$/;"	f
+get_dhcp_opt	./dhcp.c	/^unsigned char* get_dhcp_opt(unsigned char* op,int code)$/;"	f
+get_mib2_if	./interface.c	/^int get_mib2_if(char *dat,int maxlen)$/;"	f
+get_mib2_ip	./ip.c	/^int get_mib2_ip(char *dat, int maxlen)$/;"	f
+get_mib2_ip	./ip.c	/^int get_mib2_ip(char *dat,int maxlen)$/;"	f
+get_proc_info	./shell.c	/^int get_proc_info(void)$/;"	f
+get_sattr	./radius.c	/^int get_sattr(char *buf,int type,void *val)$/;"	f
+get_state	./make_radius.c	/^int get_state(char *buf, char *state)$/;"	f
+getconf	./conf.c	/^getconf(char* path,char* l,char* val)$/;"	f
+getconfdelim	./conf.c	/^getconfdelim(char* path,char* label,char delim,int field,char* val)$/;"	f
+getcpuuse	./cpu.c	/^int getcpuuse(int *ncpus,int *min01,int *min05,int *min15,int *min60)$/;"	f
+getdevinst	./if.c	/^int getdevinst(char* dev,char* device,int *inst)$/;"	f
+getdiskuse	./disk.c	/^int getdiskuse(disk_t *dp)$/;"	f
+getdiskuse	./disk.c	/^int getdiskuse(disk_t dp[])$/;"	f
+geticmptype	./ping.c	/^geticmptype(unsigned char type)$/;"	f
+getiff	./if.c	/^char* getiff(int iff)$/;"	f
+getifflags	./if.c	/^getifflags(char* ifname)$/;"	f
+getifindex	./if.c	/^getifindex(unsigned char* ifname)$/;"	f
+getifmode	./if.c	/^int getifmode(char *dev)$/;"	f
+getifmode	./if.c	/^int getifmode(char* dev)$/;"	f
+getifs	./if.c	/^int getifs()$/;"	f
+getifspeed	./if.c	/^int getifspeed(char *dev)$/;"	f
+getifspeed	./if.c	/^int getifspeed(char* dev)$/;"	f
+getifstat	./if.c	/^int getifstat(char *dev)$/;"	f
+getiftok	./if.c	/^int getiftok(char *p)$/;"	f
+getifval	./if.c	/^int getifval(char* fname)$/;"	f
+getip	./if.c	/^getip(char* ifname)$/;"	f
+getkvstat	./interface.c	/^int getkvstat(char* sname,char* vname,void *val)$/;"	f
+getlabel	./conf.c	/^getlabel(char* path,char* label,char* val)$/;"	f
+getloglevel	./log.c	/^int getloglevel(int idx)$/;"	f
+getmac	./if.c	/^getmac(unsigned char* ifname,unsigned char* eth)$/;"	f
+getmemuse	./mem.c	/^int getmemuse(unsigned long *total,unsigned long *avail)$/;"	f
+getmemuses	./mem.c	/^int getmemuses(unsigned long *total,unsigned long *avail)$/;"	f
+getmemval	./mem.c	/^unsigned long getmemval(char *s, unsigned long *found)$/;"	f
+getmtu	./if.c	/^getmtu(char* ifname)$/;"	f
+getmtu	./if.c	/^getmtu(unsigned char* ifname)$/;"	f
+getrdiskuse	./disk.c	/^int getrdiskuse(int *total,int *avail)$/;"	f
+getrdiskuse2	./disk.c	/^int getrdiskuse2(int *total,int *used)$/;"	f
+getsaddrbyhost	./sock.c	/^getsaddrbyhost(char* h,int port,struct sockaddr_in* snd)$/;"	f
+gettdiskuse	./disk.c	/^int gettdiskuse(int *total,int *avail)$/;"	f
+gettdiskuse2	./disk.c	/^int gettdiskuse2(int *total,int *used)$/;"	f
+gettp	./time.c	/^gettp (struct tm* tp, char *fmt, char *s)$/;"	f
+gfmttm	./time.c	/^gfmttm(time_t* tp,char* fmt,char *s)$/;"	f
+giaddr	./dhcp.h	/^    unsigned int 		giaddr;$/;"	m	struct:dhcp
+giaddr	./make_dhcp.h	/^    uint32_t 			giaddr;$/;"	m	struct:dhcpformat
+h2int_1byte	./mac_parse.c	/^h2int_1byte(char hex)$/;"	f
+h2int_2byte	./mac_parse.c	/^h2int_2byte(char *hex)$/;"	f
+hash_lock	./timer.c	/^static pthread_mutex_t hash_lock;$/;"	v	file:
+hhash	./mmc.c	/^hist_t *hhash[hist_hash_size]   = { NULL, };$/;"	v
+hhashfn	./mmc.c	/^unsigned int hhashfn(unsigned int mmcid)    { return ((hist_hash_size - 1) & mmcid); }$/;"	f
+hist_add	./mmc.c	/^hist_t* hist_add(int mmcid)$/;"	f
+hist_del	./mmc.c	/^void hist_del(int mmcid)$/;"	f
+hist_find	./mmc.c	/^hist_t* hist_find(int mmcid)$/;"	f
+hist_hash	./mmc.c	/^void hist_hash(hist_t *p)$/;"	f
+hist_hash_size	./mmc.c	165;"	d	file:
+hist_show	./mmc.c	/^void hist_show()$/;"	f
+hist_t	./mmc.h	/^} hist_t;$/;"	t	typeref:struct:_hist_
+hist_unhash	./mmc.c	/^void hist_unhash(hist_t *p)$/;"	f
+hlen	./dhcp.h	/^    unsigned char 		hlen;$/;"	m	struct:dhcp
+hlen	./make_dhcp.h	/^    unsigned char 		hlen;$/;"	m	struct:dhcpformat
+hlist_add_after	./list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f
+hlist_add_before	./list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f
+hlist_add_fake	./list.h	/^static inline void hlist_add_fake(struct hlist_node *n)$/;"	f
+hlist_add_head	./list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f
+hlist_del	./list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f
+hlist_del_init	./list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f
+hlist_empty	./list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f
+hlist_entry	./list.h	699;"	d
+hlist_entry_safe	./list.h	708;"	d
+hlist_for_each	./list.h	701;"	d
+hlist_for_each_entry	./list.h	719;"	d
+hlist_for_each_entry_continue	./list.h	729;"	d
+hlist_for_each_entry_from	./list.h	739;"	d
+hlist_for_each_entry_safe	./list.h	750;"	d
+hlist_for_each_safe	./list.h	704;"	d
+hlist_head	./list.h	/^struct hlist_head {$/;"	s
+hlist_move_list	./list.h	/^static inline void hlist_move_list(struct hlist_head *old,$/;"	f
+hlist_node	./list.h	/^struct hlist_node {$/;"	s
+hlist_unhashed	./list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f
+hmac_md5	./hmac_md5.c	/^hmac_md5(text, text_len, key, key_len, digest)$/;"	f
+home_address	./make_rrq.h	/^	uint32_t		home_address;$/;"	m	struct:req_format
+home_address	./make_rrq.h	/^	uint32_t home_address;$/;"	m	struct:rep_format
+home_agent	./make_rrq.h	/^	uint32_t		home_agent;$/;"	m	struct:req_format
+home_agent	./make_rrq.h	/^	uint32_t home_agent;$/;"	m	struct:rep_format
+hops	./dhcp.h	/^    unsigned char 		hops;$/;"	m	struct:dhcp
+hops	./make_dhcp.h	/^    unsigned char 		hops;$/;"	m	struct:dhcpformat
+hostName	./dhcp.h	/^        hostName                =   12,$/;"	e	enum:__anon3
+hosts	./test/test_msleep.c	/^char hosts[MAXHOST][20] = {$/;"	v
+htype	./dhcp.h	/^    unsigned char 		htype;$/;"	m	struct:dhcp
+htype	./make_dhcp.h	/^    unsigned char 		htype;$/;"	m	struct:dhcpformat
+i	./md5.h	/^  UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon1
+icmpsock	./sock.c	/^icmpsock()$/;"	f
+id	./dns.h	/^	unsigned short		id;			\/* Identification		*\/$/;"	m	struct:dns
+id	./dns.h	/^	unsigned short		id;			\/* Identification		*\/$/;"	m	struct:dnsupd
+id	./make_radius.h	/^	u_char		id;$/;"	m	struct:eap
+id	./make_radius.h	/^	u_char		id;$/;"	m	struct:make_challenge
+id	./make_radius.h	/^	u_char 		id;$/;"	m	struct:find_challenge
+id	./make_radius.h	/^    u_char          id;$/;"	m	struct:rad
+id	./radius.h	/^	unsigned char	id;$/;"	m	struct:radius
+id	./radius.h	/^	unsigned int 	id;$/;"	m	struct:vend_attr
+id_high	./make_rrq.h	/^	unsigned int	id_high;$/;"	m	struct:req_format
+id_high	./make_rrq.h	/^	unsigned int id_high;$/;"	m	struct:rep_format
+id_low	./make_rrq.h	/^	unsigned int	id_low;$/;"	m	struct:req_format
+id_low	./make_rrq.h	/^	unsigned int id_low;$/;"	m	struct:rep_format
+ieip	./ipp.h	/^	unsigned int 	ieip;$/;"	m	struct:ipph
+ifAdminStatus	./mib2.h	/^    int     	ifAdminStatus;      \/* ifEntry 7 *\/$/;"	m	struct:mib2_ifEntry
+ifDescr	./mib2.h	/^    DeviceName  ifDescr;        	\/* ifEntry 2 *\/$/;"	m	struct:mib2_ifEntry
+ifInDiscards	./mib2.h	/^    Counter 	ifInDiscards;       \/* ifEntry 13 *\/$/;"	m	struct:mib2_ifEntry
+ifInErrors	./mib2.h	/^    Counter 	ifInErrors;     	\/* ifEntry 14 *\/$/;"	m	struct:mib2_ifEntry
+ifInNUcastPkts	./mib2.h	/^    Counter 	ifInNUcastPkts;     \/* ifEntry 12 *\/$/;"	m	struct:mib2_ifEntry
+ifInOctets	./mib2.h	/^    Counter 	ifInOctets;     	\/* ifEntry 10 *\/$/;"	m	struct:mib2_ifEntry
+ifInUcastPkts	./mib2.h	/^    Counter 	ifInUcastPkts;      \/* ifEntry 11 *\/$/;"	m	struct:mib2_ifEntry
+ifInUnknownProtos	./mib2.h	/^    Counter 	ifInUnknownProtos;  \/* ifEntry 15 *\/$/;"	m	struct:mib2_ifEntry
+ifIndex	./mib2.h	/^    int     	ifIndex;        	\/* ifEntry 1 *\/$/;"	m	struct:mib2_ifEntry
+ifLastChange	./mib2.h	/^    TimeTicks   ifLastChange;       \/* ifEntry 9 *\/$/;"	m	struct:mib2_ifEntry
+ifMTU	./dhcp.h	/^        ifMTU                   =   26,$/;"	e	enum:__anon3
+ifMtu	./mib2.h	/^    int     	ifMtu;          	\/* ifEntry 4 *\/$/;"	m	struct:mib2_ifEntry
+ifOperStatus	./mib2.h	/^    int     	ifOperStatus;       \/* ifEntry 8 *\/$/;"	m	struct:mib2_ifEntry
+ifOutDiscards	./mib2.h	/^    Counter 	ifOutDiscards;      \/* ifEntry 19 *\/$/;"	m	struct:mib2_ifEntry
+ifOutErrors	./mib2.h	/^    Counter 	ifOutErrors;        \/* ifEntry 20 *\/$/;"	m	struct:mib2_ifEntry
+ifOutNUcastPkts	./mib2.h	/^    Counter 	ifOutNUcastPkts;    \/* ifEntry 18 *\/$/;"	m	struct:mib2_ifEntry
+ifOutOctets	./mib2.h	/^    Counter 	ifOutOctets;        \/* ifEntry 16 *\/$/;"	m	struct:mib2_ifEntry
+ifOutQLen	./mib2.h	/^    Gauge   	ifOutQLen;      	\/* ifEntry 21 *\/$/;"	m	struct:mib2_ifEntry
+ifOutUcastPkts	./mib2.h	/^    Counter 	ifOutUcastPkts;     \/* ifEntry 17 *\/$/;"	m	struct:mib2_ifEntry
+ifPhysAddress	./mib2.h	/^    PhysAddress ifPhysAddress;      \/* ifEntry 6 *\/$/;"	m	struct:mib2_ifEntry
+ifSpecific	./mib2.h	/^    int     	ifSpecific;     	\/* ifEntry 22 *\/$/;"	m	struct:mib2_ifEntry
+ifSpeed	./mib2.h	/^    Gauge   	ifSpeed;        	\/* ifEntry 5 *\/$/;"	m	struct:mib2_ifEntry
+ifType	./mib2.h	/^    int     	ifType;         	\/* ifEntry 3 *\/$/;"	m	struct:mib2_ifEntry
+if_t	./__if.h	/^} if_t;$/;"	t	typeref:struct:__if
+ifdown	./if.c	/^void ifdown(unsigned char* ifname)$/;"	f
+ifs	./if.c	/^if_t	ifs[MAXIF];$/;"	v
+ifup	./if.c	/^void ifup(unsigned char* ifname)$/;"	f
+ifup	./if.c	/^void ifup(unsigned char* ifname, unsigned int addr, unsigned int mask, unsigned int bcast)$/;"	f
+impressServer	./dhcp.h	/^        impressServer           =   10,$/;"	e	enum:__anon3
+imsi2str	./imsi.c	/^imsi2str(char *imsi, char *str)$/;"	f
+in	./md5.h	/^  unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon1
+in_chksum	./sock.c	/^in_chksum(unsigned short* s,int n)$/;"	f
+index	./ipp.h	/^	int index;$/;"	m	struct:_ipp
+init	./test/test_shell.c	/^int init()$/;"	f
+init_cb_timer	./timer.c	/^init_cb_timer(void)$/;"	f
+init_timer	./timer.c	/^init_timer(void)$/;"	f
+initlog	./log.c	/^int initlog(int idx, char *path, char *sys, char *procs, int lev, int out, int mode)$/;"	f
+initmmckey	./mmc.c	/^initmmckey()$/;"	f
+initpeer2	./peer.c	/^void initpeer2(int cnt, int *addr)$/;"	f
+initq	./ipc.c	/^initq(const key_t key)$/;"	f
+ipalloc	./ipp.c	/^unsigned int ipalloc()$/;"	f
+ipallocn	./ipp.c	/^int ipallocn(char *s, int index)$/;"	f
+ipfree	./ipp.c	/^void ipfree(unsigned int addr)$/;"	f
+ipp	./ipp.h	/^	ipp_t 		ipp[MAXIPP];$/;"	m	struct:ipplist
+ipp_t	./ipp.h	/^} ipp_t;$/;"	t	typeref:struct:ipph
+ippadd	./ipp.c	/^int ippadd(char* netaddr, int nbit,char* xsaddr,char* xeaddr)$/;"	f
+ippaddn	./ipp.c	/^int ippaddn(int index, char* netaddr, int nbit,char* xsaddr,char* xeaddr)$/;"	f
+ippdel	./ipp.c	/^int ippdel(char* netaddr, int nbit)$/;"	f
+ippflush	./ipp.c	/^void ippflush()$/;"	f
+ippfree	./ipp.c	/^int ippfree()$/;"	f
+ipph	./ipp.h	/^typedef struct ipph {$/;"	s
+ipplist	./ipp.c	/^ipplist_t* ipplist[MAXIPPLIST] = {NULL, }; $/;"	v
+ipplist	./ipp.h	/^typedef struct ipplist {$/;"	s
+ipplist_t	./ipp.h	/^} ipplist_t;$/;"	t	typeref:struct:ipplist
+ipptotal	./ipp.c	/^int ipptotal()$/;"	f
+ipptotaln	./ipp.c	/^int ipptotaln(int n)$/;"	f
+ipptype	./ipp.c	/^int		ipptype=0;	\/* ippool allocation method	*\/$/;"	v
+ippused	./ipp.c	/^int ippused()$/;"	f
+ippusedn	./ipp.c	/^int ippusedn(int n)$/;"	f
+ippusednet	./ipp.c	/^int ippusednet(int n,unsigned int network,int nbit)$/;"	f
+ipset	./ipp.c	/^int ipset(unsigned int addr)$/;"	f
+isip	./ipp.h	/^	unsigned int 	isip;	\/* include	*\/	$/;"	m	struct:ipph
+isleap_4	./__time.h	49;"	d
+isleap_tm	./__time.h	55;"	d
+julian0	./__time.h	32;"	d
+k	./timer.c	/^	char 				k[TIMER_KEY_SIZE]; 	\/* key *\/$/;"	m	struct:tentry	file:
+keepalive	./make_rrq.h	/^	uint16_t keepalive;$/;"	m	struct:udp_reply
+klist	./timer.c	/^	struct list_head	klist;$/;"	m	struct:tentry	typeref:struct:tentry::list_head	file:
+l	./__if.h	/^			l:1,$/;"	m	struct:__if
+label	./conf.h	/^	char label[CONFLEN];$/;"	m	struct:_conftab_
+lasttime	./shell.c	/^struct timeval lasttime;$/;"	v	typeref:struct:timeval
+len	./radius.h	/^	unsigned char	len;$/;"	m	struct:attr
+len	./radius.h	/^	unsigned char	len;$/;"	m	struct:rattr
+len	./radius.h	/^	unsigned char	len;$/;"	m	struct:vend_attr
+len	./radius.h	/^	unsigned short	len;$/;"	m	struct:radius
+length	./make_dhcp.h	/^	unsigned char		length;$/;"	m	struct:dhcpopt_int
+length	./make_dhcp.h	/^	unsigned char		length;$/;"	m	struct:dhcpopt_string
+length	./make_dhcp.h	/^	unsigned char		length;$/;"	m	struct:dhcpopt_type
+length	./make_radius.h	/^	u_short		length;$/;"	m	struct:eap
+length	./make_radius.h	/^	u_short 	length;$/;"	m	struct:find_challenge
+length	./make_radius.h	/^    u_short         length;$/;"	m	struct:rad
+length	./make_rrq.h	/^	short			length;$/;"	m	struct:general
+length	./make_rrq.h	/^	uint8_t			length;$/;"	m	struct:challenge_extension
+length	./make_rrq.h	/^	uint8_t			length;$/;"	m	struct:extension
+length	./make_rrq.h	/^	uint8_t			length;$/;"	m	struct:find
+length	./make_rrq.h	/^	uint8_t			length;$/;"	m	struct:nai
+length	./make_rrq.h	/^	uint8_t length;$/;"	m	struct:my_ext
+length	./make_rrq.h	/^	uint8_t length;$/;"	m	struct:myint_ext
+length	./make_rrq.h	/^	uint8_t length;$/;"	m	struct:udp_reply
+length	./make_rrq.h	/^	uint8_t length;$/;"	m	struct:udp_request
+level	./log.h	/^	int level;$/;"	m	struct:__anon2
+li	./__time.h	/^					li:2;		\/* Leap Indicator 				*\/$/;"	m	struct:ntp
+li	./__time.h	/^	unsigned char	li:2,		\/* Leap Indicator 				*\/$/;"	m	struct:ntp
+lifetime	./make_rrq.h	/^	unsigned short	lifetime;$/;"	m	struct:rep_format
+lifetime	./make_rrq.h	/^	unsigned short	lifetime;$/;"	m	struct:req_format
+list	./timer.c	/^	struct list_head 	list;$/;"	m	struct:thash	typeref:struct:thash::list_head	file:
+list_add	./list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	./list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_cut_position	./list.h	/^static inline void list_cut_position(struct list_head *list,$/;"	f
+list_del	./list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	./list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	./list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_empty_careful	./list.h	/^static inline int list_empty_careful(const struct list_head *head)$/;"	f
+list_entry	./list.h	389;"	d
+list_first_entry	./list.h	400;"	d
+list_first_entry_or_null	./list.h	411;"	d
+list_for_each	./list.h	419;"	d
+list_for_each_entry	./list.h	457;"	d
+list_for_each_entry_continue	./list.h	493;"	d
+list_for_each_entry_continue_reverse	./list.h	507;"	d
+list_for_each_entry_from	./list.h	520;"	d
+list_for_each_entry_reverse	./list.h	468;"	d
+list_for_each_entry_safe	./list.h	531;"	d
+list_for_each_entry_safe_continue	./list.h	547;"	d
+list_for_each_entry_safe_from	./list.h	563;"	d
+list_for_each_entry_safe_reverse	./list.h	578;"	d
+list_for_each_prev	./list.h	427;"	d
+list_for_each_prev_safe	./list.h	446;"	d
+list_for_each_safe	./list.h	436;"	d
+list_head	./list.h	/^struct list_head {$/;"	s
+list_is_last	./list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+list_is_singular	./list.h	/^static inline int list_is_singular(const struct list_head *head)$/;"	f
+list_move	./list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	./list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	./list.h	481;"	d
+list_replace	./list.h	/^static inline void list_replace(struct list_head *old,$/;"	f
+list_replace_init	./list.h	/^static inline void list_replace_init(struct list_head *old,$/;"	f
+list_rotate_left	./list.h	/^static inline void list_rotate_left(struct list_head *head)$/;"	f
+list_safe_reset_next	./list.h	596;"	d
+list_splice	./list.h	/^static inline void list_splice(const struct list_head *list,$/;"	f
+list_splice_init	./list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	./list.h	/^static inline void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	./list.h	/^static inline void list_splice_tail_init(struct list_head *list,$/;"	f
+load_avg_attr	./cpu.c	/^pthread_attr_t load_avg_attr;$/;"	v
+load_avg_init	./cpu.c	/^int 		load_avg_init   = 0 ;$/;"	v
+loaddouble	./cpu.c	10;"	d	file:
+lockpid	./proc.c	/^lockpid(char *path,char *f,int signo)$/;"	f
+logServer	./dhcp.h	/^        logServer               =   7,$/;"	e	enum:__anon3
+log_t	./log.h	/^} log_t;$/;"	t	typeref:struct:__anon2
+logdump	./log.c	/^logdump(int idx, unsigned char* p, int n)$/;"	f
+logprn	./log.c	/^logprn(int idx, int level,int tid,char* fmt,...)$/;"	f
+logset	./log.c	/^int logset(int idx, int maxfn, int maxfs)$/;"	f
+long2bcd	./encode.c	/^long2bcd(uint64_t l)$/;"	f
+lprServer	./dhcp.h	/^        lprServer               =   9,$/;"	e	enum:__anon3
+lprintf	./log.c	/^lprintf(int idx, int level,char* fmt,...)$/;"	f
+m	./__if.h	/^			m:1,$/;"	m	struct:__if
+mac	./__if.h	/^	unsigned char 	mac[6];		\/* hardware address		*\/$/;"	m	struct:__if
+mac_parse	./mac_parse.c	/^mac_parse(char *mac, unsigned char* macint)$/;"	f
+magic	./make_dhcp.h	/^	uint32_t			magic;$/;"	m	struct:dhcpformat
+main	./if.c	/^main()$/;"	f
+main	./interface.c	/^int main(int argc, char* argv[])$/;"	f
+main	./ioctl_func.c	/^main(void)$/;"	f
+main	./ip.c	/^main()$/;"	f
+main	./ipp.c	/^main()$/;"	f
+main	./log.c	/^int main()$/;"	f
+main	./mem.c	/^main()$/;"	f
+main	./ntp.c	/^int main()$/;"	f
+main	./peer.c	/^int main()$/;"	f
+main	./progA.c	/^main(int argc,char *argv[])$/;"	f
+main	./progB.c	/^main(int argc,char *argv[])$/;"	f
+main	./sock.c	/^int main()$/;"	f
+main	./sockv6.c	/^int main()$/;"	f
+main	./test/progA.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/progB.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_access.c	/^main()$/;"	f
+main	./test/test_account.c	/^main()$/;"	f
+main	./test/test_base64.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_bcd.c	/^main()$/;"	f
+main	./test/test_bg.c	/^main()$/;"	f
+main	./test/test_cbtimer.c	/^int main()$/;"	f
+main	./test/test_cbtimer_block.c	/^int main()$/;"	f
+main	./test/test_conf.c	/^main()$/;"	f
+main	./test/test_cpu.c	/^int main()$/;"	f
+main	./test/test_csum.c	/^main()$/;"	f
+main	./test/test_dhcp.c	/^main()$/;"	f
+main	./test/test_disk.c	/^int main()$/;"	f
+main	./test/test_dns.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_dump.c	/^int main()$/;"	f
+main	./test/test_icmp.c	/^int main()$/;"	f
+main	./test/test_if.c	/^main()$/;"	f
+main	./test/test_imsi.c	/^main(int argc, char *argv[])$/;"	f
+main	./test/test_interface.c	/^main()$/;"	f
+main	./test/test_ip.c	/^main()$/;"	f
+main	./test/test_ippool.c	/^main()$/;"	f
+main	./test/test_log.c	/^int main()$/;"	f
+main	./test/test_mac_parse.c	/^main(int argc, char *argv[])$/;"	f
+main	./test/test_make_access.c	/^int main()$/;"	f
+main	./test/test_make_account.c	/^int main()$/;"	f
+main	./test/test_make_dhcp.c	/^int main()$/;"	f
+main	./test/test_make_rrq.c	/^int main()$/;"	f
+main	./test/test_mem.c	/^main()$/;"	f
+main	./test/test_mmc.c	/^main()$/;"	f
+main	./test/test_msgq.c	/^main()$/;"	f
+main	./test/test_msleep.c	/^main()$/;"	f
+main	./test/test_ntp.c	/^int main(int argc,char *argv[])$/;"	f
+main	./test/test_peer.c	/^int main(int argc, char *argv[])$/;"	f
+main	./test/test_ping.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_shell.c	/^int main()$/;"	f
+main	./test/test_shm.c	/^main()$/;"	f
+main	./test/test_sleep.c	/^main()$/;"	f
+main	./test/test_tcpcli.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_tcpsvr.c	/^main(int argc,char *argv[])$/;"	f
+main	./test/test_time.c	/^main()$/;"	f
+main	./test/test_timer.c	/^int main()$/;"	f
+main	./test/test_udp.c	/^main()$/;"	f
+main	./test/test_v6_tcpclnt.c	/^main(int argc, char *argv[])$/;"	f
+main	./test/test_v6_tcpsvr.c	/^main(int argc, char *argv[])$/;"	f
+make_access_msg	./make_radius.c	/^int make_access_msg(char *buf,int type,int id,char *temp)$/;"	f
+make_account_msg	./make_radius.c	/^int make_account_msg(char *buf,int type,int id)$/;"	f
+make_challenge	./make_radius.h	/^typedef struct make_challenge{$/;"	s
+make_challenge_t	./make_radius.h	/^} make_challenge_t;$/;"	t	typeref:struct:make_challenge
+make_dhcp_msg	./make_dhcp.c	/^make_dhcp_msg(char *buf,unsigned int xid,unsigned int yiaddr,char *tmpbuf)$/;"	f
+make_eap_msg	./make_radius.c	/^int make_eap_msg(char *buf, int code, int id, int length, int type, char *value)$/;"	f
+make_md5	./make_radius.c	/^int make_md5(char *buf, int len, char *digest)$/;"	f
+make_presuf_md5	./make_rrq.c	/^int make_presuf_md5(char *buf, int len, char *digest, char *key)$/;"	f
+make_random_number	./make_dhcp.c	/^make_random_number()$/;"	f
+make_req_challenge	./make_radius.c	/^int make_req_challenge(char *buf, int id, char *key, char *challenge, char *digest)$/;"	f
+make_req_eap_msg	./make_radius.c	/^int make_req_eap_msg(char *buf, int code, int id, int length, int type, char *value, char *name)$/;"	f
+makefmt	./mmc.c	/^makefmt(int ntok,char* f)$/;"	f
+makefmttm	./time.c	/^makefmttm (struct tm *tp, unsigned int us,char *fmt, char *s)$/;"	f
+map	./ipp.h	/^	unsigned int 	map[IPMSZ];$/;"	m	struct:ipph
+mask	./__if.h	/^	unsigned int 	mask;		\/* netmask				*\/$/;"	m	struct:__if
+mask	./ipp.h	/^	unsigned int 	mask;$/;"	m	struct:ipph
+maskSupplier	./dhcp.h	/^        maskSupplier            =   30,$/;"	e	enum:__anon3
+maxDgramReasmSize	./dhcp.h	/^        maxDgramReasmSize       =   22,$/;"	e	enum:__anon3
+maxrxpkt	./__if.h	/^	u32 maxrxpkt;   \/* Rx pkts before generating rx int *\/$/;"	m	struct:ethtool_cmd
+maxtxpkt	./__if.h	/^	u32 maxtxpkt;   \/* Tx pkts before generating tx int *\/$/;"	m	struct:ethtool_cmd
+mbl	./__if.h	/^	int		mbl;				\/* maskbit length		*\/$/;"	m	struct:__if
+memfree	./ipc.c	/^memfree(key_t key)$/;"	f
+memget	./ipc.c	/^memget(key_t key, int size)$/;"	f
+meritDumpFile	./dhcp.h	/^        meritDumpFile           =   14,$/;"	e	enum:__anon3
+mib2_ifEntry	./mib2.h	/^typedef struct mib2_ifEntry {$/;"	s
+mib2_ifEntry_t	./mib2.h	/^} mib2_ifEntry_t;$/;"	t	typeref:struct:mib2_ifEntry
+mkcomment	./conf.c	/^mkcomment(char* path)$/;"	f
+mmc_cb_err	./mmc.c	/^void (*mmc_cb_err)(char*) 		= NULL;		\/* MMC ERROR CALLBACK FUNCTION				*\/$/;"	v
+mmc_syntax_check	./mmc.c	/^mmc_syntax_check(char *cmd,int cont)$/;"	f
+mmc_t	./mmc.h	/^} mmc_t;$/;"	t	typeref:struct:_mmc_
+mmcbuf	./mmc.c	/^char 	mmcbuf[BUFSIZ]		;$/;"	v
+mmcfd	./mmc.c	/^int 	mmcfd	= 0;$/;"	v
+mmcfunc	./mmc.c	/^int 	mmcfunc	= 0;$/;"	v
+mmcgetc	./mmc.c	/^mmcgetc()$/;"	f
+mmcgets	./mmc.c	/^mmcgets(char* s)$/;"	f
+mmchelp	./mmc.c	/^void mmchelp(char* arg,...)$/;"	f
+mmcid	./mmc.c	/^int mmcid=0;$/;"	v
+mmcid	./mmc.h	/^    int  mmcid;$/;"	m	struct:_hist_
+mmclist	./mmc.c	/^mmc_t *mmclist=NULL;$/;"	v
+mmclocbuf	./mmc.c	/^char 	mmclocbuf[BUFSIZ]	;$/;"	v
+mmcsin	./mmc.c	/^struct sockaddr_in mmcsin;$/;"	v	typeref:struct:sockaddr_in
+mmcsucc	./mmc.c	/^int 	mmcsucc	= 0;$/;"	v
+mmifd	./mmc.c	/^int 	mmifd	= 0;$/;"	v
+mmisin	./mmc.c	/^struct sockaddr_in mmisin;$/;"	v	typeref:struct:sockaddr_in
+mn_nai	./make_rrq.h	/^	char			mn_nai[64];$/;"	m	struct:nai
+modconf	./conf.c	/^modconf(char* path,char* label,char* val,char* comment)$/;"	f
+mode	./__time.h	/^					mode:3;$/;"	m	struct:ntp
+mode	./__time.h	/^	unsigned char	mode:3,$/;"	m	struct:ntp
+mode	./log.h	/^	int mode;$/;"	m	struct:__anon2
+mparse	./mmc.c	/^mparse(char *cmd,int cont,int fd,struct sockaddr_in sin)$/;"	f
+mprintf	./mmc.c	/^void mprintf(const char * fmt, ...)$/;"	f
+msgq	./ipc.c	/^typedef struct msgq {$/;"	s	file:
+msgq_t	./ipc.c	/^} msgq_t;$/;"	t	typeref:struct:msgq	file:
+msleep	./time.c	/^msleep(int tv_sec,int tv_usec)$/;"	f
+mtext	./ipc.c	/^    char mtext[BUFSIZ];$/;"	m	struct:msgq	file:
+mtu	./__if.h	/^	int		mtu;				\/* interface mtu 		*\/$/;"	m	struct:__if
+mtype	./ipc.c	/^    long mtype;$/;"	m	struct:msgq	file:
+my_ext	./make_rrq.h	/^typedef struct my_ext{$/;"	s
+my_ext_t	./make_rrq.h	/^}my_ext_t;$/;"	t	typeref:struct:my_ext
+myint_ext	./make_rrq.h	/^typedef struct myint_ext{$/;"	s
+myint_ext_t	./make_rrq.h	/^}myint_ext_t;$/;"	t	typeref:struct:myint_ext
+n	./bufq.h	/^	int 	n;				\/* message length 				*\/$/;"	m	struct:umsg
+n	./timer.c	/^	int 				n; 					\/* key len *\/$/;"	m	struct:tentry	file:
+n_stats	./__if.h	/^    u32 n_stats;    \/* number of u64's from ETHTOOL_GSTATS *\/$/;"	m	struct:ethtool_drvinfo
+nai	./make_rrq.h	/^typedef struct nai{$/;"	s
+nai_t	./make_rrq.h	/^} nai_t;$/;"	t	typeref:struct:nai
+name	./disk.h	/^	char name[32];			\/* mounted name *\/$/;"	m	struct:disk
+name	./make_radius.h	/^	char 		name[32];$/;"	m	struct:find_challenge
+name	./shell.h	/^    char    name[32];       \/* Startup  *\/$/;"	m	struct:proc
+nameServer	./dhcp.h	/^        nameServer              =   5,$/;"	e	enum:__anon3
+nbit	./ipp.h	/^	unsigned int  	nbit;$/;"	m	struct:ipph
+net	./ipp.h	/^	unsigned int 	net;$/;"	m	struct:ipph
+netBIOSdgramDistServer	./dhcp.h	/^        netBIOSdgramDistServer  =   45,$/;"	e	enum:__anon3
+netBIOSnameServer	./dhcp.h	/^        netBIOSnameServer       =   44,$/;"	e	enum:__anon3
+netBIOSnodeType	./dhcp.h	/^        netBIOSnodeType         =   46,$/;"	e	enum:__anon3
+netBIOSscope	./dhcp.h	/^        netBIOSscope            =   47,$/;"	e	enum:__anon3
+next	./bufq.h	/^	struct umsg *next;		\/* next umsg pointer			*\/$/;"	m	struct:umsg	typeref:struct:umsg::umsg
+next	./dhcp.h	/^	unsigned int next;$/;"	m	struct:dhcp_fsm
+next	./list.h	/^        struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	./list.h	/^        struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	./mmc.h	/^    struct _hist_ *next;$/;"	m	struct:_hist_	typeref:struct:_hist_::_hist_
+next	./ntp.h	/^    struct ntph *next;$/;"	m	struct:ntph	typeref:struct:ntph::ntph
+next	./peer.h	/^    struct peer 	*next;$/;"	m	struct:peer	typeref:struct:peer::peer
+next	./shm_list.h	/^	int prev, next;$/;"	m	struct:shm_list_head
+next_state	./fsm.h	/^	int 		next_state;$/;"	m	struct:fsmaction
+nipp	./ipp.h	/^	int 		nipp;$/;"	m	struct:ipplist
+nisDomainName	./dhcp.h	/^        nisDomainName           =   40,$/;"	e	enum:__anon3
+nisServers	./dhcp.h	/^        nisServers              =   41,$/;"	e	enum:__anon3
+nonLocalSourceRouting	./dhcp.h	/^        nonLocalSourceRouting   =   20,$/;"	e	enum:__anon3
+nproc	./shell.c	/^int      nproc;$/;"	v
+nscount	./dns.h	/^	unsigned short		nscount;	\/* #RRs in the authority section 		*\/$/;"	m	struct:dns
+ntok	./mmc.c	/^int     ntok=0;$/;"	v
+ntp	./__time.h	/^typedef struct ntp {$/;"	s
+ntp0	./__time.h	39;"	d
+ntpServers	./dhcp.h	/^        ntpServers              =   42,$/;"	e	enum:__anon3
+ntp_t	./__time.h	/^} ntp_t;$/;"	t	typeref:struct:ntp
+ntpadd	./ntp.c	/^ntph_t* ntpadd(unsigned int addr)$/;"	f
+ntpdel	./ntp.c	/^void ntpdel(unsigned int addr)$/;"	f
+ntpfind	./ntp.c	/^ntph_t* ntpfind(unsigned int addr)$/;"	f
+ntph	./ntp.h	/^typedef struct ntph {$/;"	s
+ntph_t	./ntp.h	/^} ntph_t;$/;"	t	typeref:struct:ntph
+ntphash	./ntp.c	/^void ntphash(ntph_t *p)$/;"	f
+ntppm	./ntp.c	/^void *ntppm(void* arg)$/;"	f
+ntpstask	./ntp.c	/^void *ntpstask(void *arg)$/;"	f
+ntptab	./ntp.c	/^ntph_t *ntptab[1] = { NULL, };$/;"	v
+ntpunhash	./ntp.c	/^void ntpunhash(ntph_t *p)$/;"	f
+o_bytes	./mib2.h	/^    char    o_bytes[OCTET_LENGTH];$/;"	m	struct:Octet_s
+o_length	./mib2.h	/^    int o_length;$/;"	m	struct:Octet_s
+offsetof	./list.h	18;"	d
+offsetof	./list.h	20;"	d
+offsetof	./list.h	22;"	d
+op	./dhcp.h	/^    unsigned char 		op;$/;"	m	struct:dhcp
+op	./make_dhcp.h	/^	unsigned char		op;$/;"	m	struct:dhcpformat
+opcde	./dns.h	/^						opcde:7,$/;"	m	struct:dnsupd
+opcode	./dns.h	/^						opcode:4,$/;"	m	struct:dns
+opcode	./dns.h	/^						opcode:4,$/;"	m	struct:dnsupd
+opmode	./conf.h	/^	char opmode[CONFLEN];$/;"	m	struct:_cmdtab_
+options	./dhcp.h	/^    unsigned char 		options[DHCPOPTLEN];$/;"	m	struct:dhcp
+orgtm	./__time.h	/^	unsigned int  	orgtm[2];	\/* Originate Timestamp 			*\/$/;"	m	struct:ntp
+otime	./shell.h	/^	unsigned long otime;$/;"	m	struct:proc
+p	./bufq.h	/^	char 	*p;				\/* message pointer				*\/$/;"	m	struct:umsg
+p	./timer.c	/^	unsigned short 		p; 					\/* callback here (port) *\/$/;"	m	struct:tentry	file:
+padOption	./dhcp.h	/^        padOption               =   0,$/;"	e	enum:__anon3
+parse_type	./mmc.c	/^int parse_type = 0;$/;"	v
+passwdgets	./mmc.c	/^passwdgets(char* s)$/;"	f
+path	./log.h	/^	char path[BUFSIZ];		\/* Log Root Path	*\/$/;"	m	struct:__anon2
+path	./shell.h	/^    char    path[64];       \/* Fullpath *\/$/;"	m	struct:proc
+pathMTUagingTimeout	./dhcp.h	/^        pathMTUagingTimeout     =   24,$/;"	e	enum:__anon3
+pathMTUplateauTable	./dhcp.h	/^        pathMTUplateauTable     =   25,$/;"	e	enum:__anon3
+pcnt	./disk.h	/^	int		pcnt;			\/* percent of usage *\/$/;"	m	struct:disk
+peer	./peer.h	/^typedef struct peer {$/;"	s
+peer_hash_size	./peer.h	16;"	d
+peer_t	./peer.h	/^} peer_t;$/;"	t	typeref:struct:peer
+peeradd	./peer.c	/^peer_t* peeradd(unsigned int addr)$/;"	f
+peercheck	./peer.c	/^void peercheck(int duration)$/;"	f
+peercheck2	./peer.c	/^void peercheck2(int duration)$/;"	f
+peercheck_th	./peer.c	/^peercheck_th(void* arg)$/;"	f
+peercheck_th_t	./peer.c	/^pthread_t peercheck_th_t;$/;"	v
+peerdel	./peer.c	/^void peerdel(unsigned int addr)$/;"	f
+peerdncbfn	./peer.c	/^void 	(*peerdncbfn)(unsigned int)=NULL;$/;"	v
+peerfd	./peer.c	/^int peerfd	=0;$/;"	v
+peerfind	./peer.c	/^peer_t* peerfind(unsigned int addr)$/;"	f
+peerhash	./peer.c	/^void peerhash(peer_t *p)$/;"	f
+peerstat	./peer.c	/^int peerstat(unsigned int addr)$/;"	f
+peertask	./peer.c	/^void* peertask(void *args)$/;"	f
+peertask2	./peer.c	/^void* peertask2(void *args)$/;"	f
+peerunhash	./peer.c	/^void peerunhash(peer_t *p)$/;"	f
+peerupcbfn	./peer.c	/^void 	(*peerupcbfn)(unsigned int)=NULL;$/;"	v
+performMaskDiscovery	./dhcp.h	/^        performMaskDiscovery    =   29,$/;"	e	enum:__anon3
+performRouterDiscovery	./dhcp.h	/^        performRouterDiscovery  =   31,$/;"	e	enum:__anon3
+phy_address	./__if.h	/^	u8  phy_address;$/;"	m	struct:ethtool_cmd
+pid	./shell.h	/^    int     pid;$/;"	m	struct:proc
+pingaddr	./test/test_ping.c	/^char pingaddr[32];$/;"	v
+pingcheck	./ping.c	/^pingcheck(char* addr)$/;"	f
+pingtest	./ping.c	/^pingtest(char* addr,int npacket,int tsec,int usec)$/;"	f
+pingthread	./test/test_ping.c	/^pingthread(void *arg)$/;"	f
+pingthread_t	./test/test_ping.c	/^pthread_t pingthread_t;$/;"	v
+policyFilter	./dhcp.h	/^        policyFilter            =   21,$/;"	e	enum:__anon3
+poll	./__time.h	/^	unsigned char 	poll;		\/* Poll							*\/$/;"	m	struct:ntp
+poll	./ntp.h	/^    int             poll;$/;"	m	struct:ntph
+port	./__if.h	/^	u8  port;       \/* Which connector port *\/$/;"	m	struct:ethtool_cmd
+pparse	./mmc.c	/^pparse(char *cmd,int cont)$/;"	f
+pprev	./list.h	/^        struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prcount	./dns.h	/^	unsigned short		prcount;	\/* #RRs in the prerequsite section 		*\/$/;"	m	struct:dnsupd
+prec	./__time.h	/^	unsigned char 	prec;		\/* Precision					*\/$/;"	m	struct:ntp
+prev	./bufq.h	/^	struct umsg *prev;		\/* previous umsg pointor		*\/$/;"	m	struct:umsg	typeref:struct:umsg::umsg
+prev	./dhcp.h	/^	unsigned int prev;$/;"	m	struct:dhcp_fsm
+prev	./list.h	/^        struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prev	./mmc.h	/^    struct _hist_ **prev;$/;"	m	struct:_hist_	typeref:struct:_hist_::_hist_
+prev	./ntp.h	/^    struct ntph **prev;$/;"	m	struct:ntph	typeref:struct:ntph::ntph
+prev	./peer.h	/^    struct peer 	**prev;$/;"	m	struct:peer	typeref:struct:peer::peer
+prev	./shm_list.h	/^	int prev, next;$/;"	m	struct:shm_list_head
+prev_state	./fsm.h	/^	int 		prev_state;$/;"	m	struct:fsm
+prhash	./peer.c	/^peer_t *prhash[peer_hash_size] = { NULL, };$/;"	v
+prn_amb	./mmc.c	/^prn_amb(int depth,char *f,int cr)$/;"	f
+prn_mib2_if	./interface.c	/^void prn_mib2_if(char *s,int len)$/;"	f
+prn_mib2_ip	./ip.c	/^void prn_mib2_ip(char *s)$/;"	f
+prn_nextc	./mmc.c	/^prn_nextc(int depth,char *f,int cr)$/;"	f
+prnifflags	./if.c	/^void prnifflags(char *ifn,int flags)$/;"	f
+prnntp	./ntp.c	/^prnntp(ntp_t *np,struct sockaddr_in sin,int dir)$/;"	f
+proc	./shell.h	/^typedef struct proc {$/;"	s
+proc_cb_dn	./shell.c	/^void 	(*proc_cb_dn)(char*) = NULL;$/;"	v
+proc_cb_up	./shell.c	/^void 	(*proc_cb_up)(char*) = NULL;$/;"	v
+proc_conf	./shell.c	/^int proc_conf(char* f,char* tag)$/;"	f
+proc_dn	./shell.c	/^int proc_dn(char* name)$/;"	f
+proc_mutex	./shell.c	/^pthread_mutex_t	proc_mutex;$/;"	v
+proc_quit	./shell.c	/^int	proc_quit()$/;"	f
+proc_show	./shell.c	/^void proc_show()$/;"	f
+proc_start	./shell.c	/^int proc_start(int i)$/;"	f
+proc_stop	./shell.c	/^int proc_stop(int i)$/;"	f
+proc_t	./shell.h	/^} proc_t;$/;"	t	typeref:struct:proc
+proc_up	./shell.c	/^int proc_up(char* name)$/;"	f
+procdn	./test/test_shell.c	/^void procdn(char* name)$/;"	f
+procs	./log.h	/^	char procs[BUFSIZ];$/;"	m	struct:__anon2
+proctab	./shell.c	/^proc_t   proctab[MAXPROCESS];$/;"	v
+procup	./test/test_shell.c	/^void procup(char* name)$/;"	f
+prv	./bufq.h	/^	char	*prv;			\/* private information			*\/$/;"	m	struct:umsg
+pstattask	./shell.c	/^void *pstattask(void *args)$/;"	f
+q_count	./bufq.h	/^	size_t      q_count;	\/* queue message counter		*\/$/;"	m	struct:bufq
+q_head	./bufq.h	/^	umsg_t      *q_head;	\/* queue header pointor			*\/$/;"	m	struct:bufq
+q_msgs	./bufq.h	/^	size_t      q_msgs;		\/* queue message bytes			*\/$/;"	m	struct:bufq
+q_tail	./bufq.h	/^	umsg_t      *q_tail;	\/* queue tail pointor			*\/$/;"	m	struct:bufq
+qdcount	./dns.h	/^	unsigned short		qdcount;	\/* #RRs in the questions section		*\/$/;"	m	struct:dns
+qr	./dns.h	/^						qr:1;$/;"	m	struct:dns
+qr	./dns.h	/^						qr:4;$/;"	m	struct:dnsupd
+qr	./dns.h	/^	unsigned short		qr:1,		\/* Query & Response		*\/$/;"	m	struct:dns
+qr	./dns.h	/^	unsigned short		qr:1,		\/* Query & Response		*\/$/;"	m	struct:dnsupd
+quit	./premmc.c	/^void quit(const char* va_alist, ...)$/;"	f
+quit	./test/premmc.c	/^void quit(const char* va_alist, ...)$/;"	f
+r	./__if.h	/^			r:1,$/;"	m	struct:__if
+ra	./dns.h	/^						ra:1,		\/* Recursion Available	*\/$/;"	m	struct:dns
+ra	./dns.h	/^						ra:1,$/;"	m	struct:dns
+rad	./make_radius.h	/^typedef struct rad{$/;"	s
+rad_t	./make_radius.h	/^} rad_t;    \/* 20 Byte *\/$/;"	t	typeref:struct:rad
+radius	./radius.h	/^typedef struct radius {$/;"	s
+radius_access_request_build	./radius.c	/^int radius_access_request_build ($/;"	f
+radius_account_parse	./radius.c	/^int radius_account_parse ($/;"	f
+radius_account_request_build	./radius.c	/^int radius_account_request_build ($/;"	f
+radius_auth_check	./radius.c	/^int radius_auth_check(char *auth, char *secret,unsigned char *buf,int len)$/;"	f
+radius_get_auth	./radius.c	/^void radius_get_auth(char *auth)$/;"	f
+radius_t	./radius.h	/^} radius_t;$/;"	t	typeref:struct:radius
+rattr	./radius.h	/^typedef struct rattr {$/;"	s
+rattr_t	./radius.h	/^} rattr_t;$/;"	t	typeref:struct:rattr
+rcode	./dns.h	/^						rcode:4;	\/* Return Code			*\/$/;"	m	struct:dns
+rcode	./dns.h	/^						rcode:4;	\/* Return Code			*\/$/;"	m	struct:dnsupd
+rcode	./dns.h	/^	unsigned short		rcode:1,$/;"	m	struct:dnsupd
+rcode	./dns.h	/^	unsigned short		rcode:4,$/;"	m	struct:dns
+rcvtm	./__time.h	/^	unsigned int  	rcvtm[2];	\/* Received Timestamp 			*\/$/;"	m	struct:ntp
+rd	./dns.h	/^						rd:1,		\/* Recursion Desired	*\/$/;"	m	struct:dns
+rd	./dns.h	/^						rd:1,$/;"	m	struct:dns
+read_proc_stat	./shell.c	/^int read_proc_stat(proc_t *pp, pid_t pid)$/;"	f
+readconf	./conf.c	/^readconf(char* path,CONFTAB* tab)$/;"	f
+readit	./test/test_timer.c	/^void *readit(void* arg)$/;"	f
+recvq	./ipc.c	/^recvq(const key_t key, char *s)$/;"	f
+ref	./peer.h	/^    int         	ref;$/;"	m	struct:peer
+reftm	./__time.h	/^	unsigned int  	reftm[2];	\/* Referenced Timestamp 		*\/$/;"	m	struct:ntp
+regdump_len	./__if.h	/^    u32 regdump_len;    \/* Size of data from ETHTOOL_GREGS (bytes) *\/$/;"	m	struct:ethtool_drvinfo
+regmmc	./mmc.c	/^void regmmc(void* list)$/;"	f
+rep_format	./make_rrq.h	/^typedef struct rep_format{$/;"	s
+reply_code	./make_rrq.h	/^	uint8_t reply_code;$/;"	m	struct:udp_reply
+reply_t	./make_rrq.h	/^} reply_t;$/;"	t	typeref:struct:rep_format
+req_format	./make_rrq.h	/^typedef struct req_format{$/;"	s
+request_t	./make_rrq.h	/^} request_t;$/;"	t	typeref:struct:req_format
+reserved	./__if.h	/^	u32 reserved[4];$/;"	m	struct:ethtool_cmd
+reserved1	./__if.h	/^    char    reserved1[32];$/;"	m	struct:ethtool_drvinfo
+reserved1	./make_rrq.h	/^	uint8_t reserved1;$/;"	m	struct:udp_request
+reserved2	./__if.h	/^    char    reserved2[16];$/;"	m	struct:ethtool_drvinfo
+reserved3	./make_rrq.h	/^	uint16_t reserved3;$/;"	m	struct:udp_request
+resourceLocationServer	./dhcp.h	/^        resourceLocationServer  =   11,$/;"	e	enum:__anon3
+rfmttm	./time.c	/^rfmttm(char *fmt,char *s)$/;"	f
+rootPath	./dhcp.h	/^        rootPath                =   17,$/;"	e	enum:__anon3
+routerSolicitationAddr	./dhcp.h	/^        routerSolicitationAddr  =   32,$/;"	e	enum:__anon3
+routersOnSubnet	./dhcp.h	/^        routersOnSubnet         =   3,$/;"	e	enum:__anon3
+rrq_msg_generator	./make_rrq.c	/^int rrq_msg_generator(char *buf,char bits,int lifetime,unsigned int home_address,unsigned int home_agent,unsigned int coa,unsigned int high,unsigned int low)$/;"	f
+rt	./bufq.h	/^	time_t	rt	;			\/* messae reported timestamp	*\/$/;"	m	struct:umsg
+run	./shell.h	/^    int     run;$/;"	m	struct:proc
+s	./mmc.h	/^    char    s[BUFSIZE];     \/* s: token string  *\/$/;"	m	struct:_token_
+s	./mmc.h	/^    char s[BUFSIZE];            \/* command string           *\/$/;"	m	struct:_mmc_
+s	./mmc.h	/^    char s[BUFSIZ];            \/* command string           *\/$/;"	m	struct:_hist_
+sec	./ntp.h	/^    unsigned int    sec;$/;"	m	struct:ntph
+secs	./dhcp.h	/^    unsigned short 		secs;$/;"	m	struct:dhcp
+secs	./make_dhcp.h	/^    unsigned short	 	secs;$/;"	m	struct:dhcpformat
+send_access_req	./test/test_make_access.c	/^int send_access_req(int sock,struct sockaddr_in sin,char *accbuf,char *key,int id,char *challenge,char *state, int state_len)$/;"	f
+send_dhcp_req	./test/test_make_dhcp.c	/^int send_dhcp_req(int sock, struct sockaddr_in sin, char *dhbuf,u_int xid, char *chaddr, int yiaddr)$/;"	f
+sendnwait	./sock.c	/^sendnwait(char *s,int len,char *addr,unsigned short port,unsigned int wait)$/;"	f
+sendq	./ipc.c	/^sendq(const key_t key, char *s, int len)$/;"	f
+set_cb_timeout	./timer.c	/^set_cb_timeout(void (*func)(char*), void* data, unsigned int msec)$/;"	f
+set_dhcp_opt	./dhcp.c	/^unsigned char *set_dhcp_opt(unsigned char* op,int code,char len,char* data)$/;"	f
+set_radius_attr	./radius.h	31;"	d
+set_radius_init	./radius.h	30;"	d
+set_t	./test/test_timer.c	/^void set_t(char *s,int msec)$/;"	f
+set_timeout	./timer.c	/^set_timeout(unsigned short port, char* key, int len, int msec)$/;"	f
+setifduplex	./if.c	/^void setifduplex(char* dev,char* duplex,int speed)$/;"	f
+setlogf	./log.c	/^int setlogf(int idx, int maxfn, int maxfs)$/;"	f
+setloglevel	./log.c	/^int setloglevel(int idx, int level) $/;"	f
+setmtu	./if.c	/^setmtu(char* ifname,unsigned int mtu)$/;"	f
+setmtu	./if.c	/^setmtu(unsigned char* ifname,unsigned int mtu)$/;"	f
+settimeout	./time.c	/^settimeout(struct timeval *timeout,int sec,int usec)$/;"	f
+shm_list_add	./shm_list.h	/^static __inline__ void shm_list_add(void* ptr$/;"	f
+shm_list_add_tail	./shm_list.h	/^static __inline__ void shm_list_add_tail(void* ptr$/;"	f
+shm_list_del	./shm_list.h	/^static __inline__ void shm_list_del(void* ptr, shm_list_head_t* ent)$/;"	f
+shm_list_del_init	./shm_list.h	/^static __inline__ void shm_list_del_init(void* ptr, shm_list_head_t* ent)$/;"	f
+shm_list_empty	./shm_list.h	/^static __inline__ int shm_list_empty(void* ptr, const shm_list_head_t* head)$/;"	f
+shm_list_entry	./shm_list.h	107;"	d
+shm_list_for_each	./shm_list.h	110;"	d
+shm_list_for_each_entry	./shm_list.h	128;"	d
+shm_list_for_each_entry_reverse	./shm_list.h	134;"	d
+shm_list_for_each_entry_safe	./shm_list.h	140;"	d
+shm_list_for_each_reverse	./shm_list.h	114;"	d
+shm_list_for_each_reverse_safe	./shm_list.h	123;"	d
+shm_list_for_each_safe	./shm_list.h	118;"	d
+shm_list_head	./shm_list.h	/^typedef struct shm_list_head {$/;"	s
+shm_list_head_t	./shm_list.h	/^} shm_list_head_t;$/;"	t	typeref:struct:shm_list_head
+shm_list_move	./shm_list.h	/^static __inline__ void shm_list_move(void* ptr$/;"	f
+shm_list_move_tail	./shm_list.h	/^static __inline__ void shm_list_move_tail(void* ptr$/;"	f
+shmpre_ipplist	./ipp.c	/^ipplist_t* shmpre_ipplist = NULL;$/;"	v
+show_cpu_load	./cpu.c	/^void show_cpu_load()$/;"	f
+siaddr	./dhcp.h	/^    unsigned int 		siaddr;$/;"	m	struct:dhcp
+siaddr	./make_dhcp.h	/^    uint32_t 			siaddr;$/;"	m	struct:dhcpformat
+sigchld	./shell.c	/^void sigchld(int signo)$/;"	f
+sigchld2	./shell.c	/^void sigchld2(int sig)$/;"	f
+sioc_addrt	./ioctl_func.c	/^sioc_addrt(uint32_t dst, uint32_t mask, uint32_t gw, char* dev)$/;"	f
+sioc_bondchangeactive	./ioctl_func.c	/^sioc_bondchangeactive(char* master, char* slave)$/;"	f
+sioc_bondenslave	./ioctl_func.c	/^sioc_bondenslave(char* master, char* slave)$/;"	f
+sioc_bondrelease	./ioctl_func.c	/^sioc_bondrelease(char* master, char* slave)$/;"	f
+sioc_bondsethwaddr	./ioctl_func.c	/^sioc_bondsethwaddr(char* master, char* slave)$/;"	f
+sioc_darp	./ioctl_func.c	/^sioc_darp(char* name, uint32_t paddr, char* hwaddr, uint32_t mask)$/;"	f
+sioc_delrt	./ioctl_func.c	/^sioc_delrt(uint32_t dst, uint32_t mask, uint32_t gw, char* dev)$/;"	f
+sioc_devprivate	./ioctl_func.c	/^sioc_devprivate(char* dev, uint8_t* p, int n)$/;"	f
+sioc_ethtool	./ioctl_func.c	/^sioc_ethtool(char* name, struct ethtool_drvinfo* info$/;"	f
+sioc_garp	./ioctl_func.c	/^sioc_garp(char* name, uint32_t paddr, char* hwaddr)$/;"	f
+sioc_gifaddr	./ioctl_func.c	/^sioc_gifaddr(char* name)$/;"	f
+sioc_gifbrdaddr	./ioctl_func.c	/^sioc_gifbrdaddr(char* name)$/;"	f
+sioc_gifconf	./ioctl_func.c	/^sioc_gifconf(char* buf, int len)$/;"	f
+sioc_gifdstaddr	./ioctl_func.c	/^sioc_gifdstaddr(char* name)$/;"	f
+sioc_gifflags	./ioctl_func.c	/^sioc_gifflags(char* name)$/;"	f
+sioc_gifhwaddr	./ioctl_func.c	/^sioc_gifhwaddr(char* name, char* addr)$/;"	f
+sioc_gifindex	./ioctl_func.c	/^sioc_gifindex(char* name)$/;"	f
+sioc_gifmtu	./ioctl_func.c	/^sioc_gifmtu(char* name)$/;"	f
+sioc_gifname	./ioctl_func.c	/^sioc_gifname(int ifindex, char* name)$/;"	f
+sioc_gifnetmask	./ioctl_func.c	/^sioc_gifnetmask(char* name)$/;"	f
+sioc_giftxqlen	./ioctl_func.c	/^sioc_giftxqlen(char* name)$/;"	f
+sioc_gmiiphy	./ioctl_func.c	/^sioc_gmiiphy(char* name, struct mii_ioctl_data* data)$/;"	f
+sioc_gmiireg	./ioctl_func.c	/^sioc_gmiireg(char* name, struct mii_ioctl_data* data)$/;"	f
+sioc_sarp	./ioctl_func.c	/^sioc_sarp(char* name, uint32_t paddr, char* hwaddr, int flags, uint32_t mask)$/;"	f
+sioc_sifaddr	./ioctl_func.c	/^sioc_sifaddr(char* name, uint32_t addr)$/;"	f
+sioc_sifbrdaddr	./ioctl_func.c	/^sioc_sifbrdaddr(char* name, uint32_t addr)$/;"	f
+sioc_sifdstaddr	./ioctl_func.c	/^sioc_sifdstaddr(char* name, uint32_t addr)$/;"	f
+sioc_sifflags	./ioctl_func.c	/^sioc_sifflags(char* name, uint16_t flags)$/;"	f
+sioc_sifhwaddr	./ioctl_func.c	/^sioc_sifhwaddr(char* name, char* addr)$/;"	f
+sioc_sifhwbroadcast	./ioctl_func.c	/^sioc_sifhwbroadcast(char* name, char* addr)$/;"	f
+sioc_sifmtu	./ioctl_func.c	/^sioc_sifmtu(char* name, int mtu)$/;"	f
+sioc_sifname	./ioctl_func.c	/^sioc_sifname(char* org_name, char* new_name)$/;"	f
+sioc_sifnetmask	./ioctl_func.c	/^sioc_sifnetmask(char* name, uint32_t mask)$/;"	f
+sioc_siftxqlen	./ioctl_func.c	/^sioc_siftxqlen(char* name, int qlen)$/;"	f
+sioc_smiireg	./ioctl_func.c	/^sioc_smiireg(char* name, struct mii_ioctl_data* data)$/;"	f
+skip_token	./shell.c	/^char *skip_token(const char *p)$/;"	f
+skip_ws	./shell.c	/^char *skip_ws(const char *p)$/;"	f
+sname	./dhcp.h	/^    unsigned char 		sname[64];$/;"	m	struct:dhcp
+sname	./make_dhcp.h	/^    char 				sname[64];$/;"	m	struct:dhcpformat
+sndntp	./ntp.c	/^sndntp(int fd,char *host)$/;"	f
+sopass	./__if.h	/^    u8  sopass[SOPASS_MAX]; \/* SecureOn(tm) password *\/$/;"	m	struct:ethtool_wolinfo
+spare	./__if.h	/^			spare:3;		\/* interface flags		*\/$/;"	m	struct:__if
+speed	./__if.h	/^	u16 speed;      \/* The forced speed, 10Mb, 100Mb, gigabit *\/$/;"	m	struct:ethtool_cmd
+spi	./make_rrq.h	/^	int				spi;$/;"	m	struct:extension
+spi	./make_rrq.h	/^	int				spi;$/;"	m	struct:general
+start	./premmc.c	/^void start(const char* va_alist, ...)$/;"	f
+start	./test/premmc.c	/^void start(const char* va_alist, ...)$/;"	f
+stat	./peer.h	/^    int         	stat;$/;"	m	struct:peer
+state	./fsm.h	/^	fsmstate_t 	state[FSM_MAX_STATE];$/;"	m	struct:fsmroot
+state	./shell.h	/^	char 	state;          \/* for cpu load *\/$/;"	m	struct:proc
+staticRoute	./dhcp.h	/^        staticRoute             =   33,$/;"	e	enum:__anon3
+stdio	./log.h	/^	int stdio;$/;"	m	struct:__anon2
+stime	./shell.h	/^    time_t  stime;$/;"	m	struct:proc
+stop	./premmc.c	/^void stop(const char* va_alist, ...)$/;"	f
+stop	./test/premmc.c	/^void stop(const char* va_alist, ...)$/;"	f
+str2int	./test/test_imsi.c	/^str2int(char *strhex, unsigned char *inthex)$/;"	f
+stra	./__time.h	/^	unsigned char 	stra;		\/* Startum						*\/$/;"	m	struct:ntp
+strlwr	./conf.c	/^strlwr (char *s)$/;"	f
+strupr	./conf.c	/^strupr (char *s)$/;"	f
+sub_type	./make_rrq.h	/^	uint8_t sub_type;$/;"	m	struct:udp_reply
+sub_type	./make_rrq.h	/^	uint8_t sub_type;$/;"	m	struct:udp_request
+subnetMask	./dhcp.h	/^        subnetMask              =   1,$/;"	e	enum:__anon3
+subtype	./make_rrq.h	/^	unsigned char	subtype;$/;"	m	struct:general
+supported	./__if.h	/^    u32 supported;  \/* Features this interface supports *\/$/;"	m	struct:ethtool_cmd
+supported	./__if.h	/^    u32 supported;$/;"	m	struct:ethtool_wolinfo
+swapServer	./dhcp.h	/^        swapServer              =   16,$/;"	e	enum:__anon3
+syncntp	./ntp.c	/^syncntp(char* host)$/;"	f
+sys	./log.h	/^	char sys[BUFSIZ];$/;"	m	struct:__anon2
+sysdn	./peer.c	/^void sysdn(unsigned int addr)$/;"	f
+sysdn	./test/test_peer.c	/^void sysdn(unsigned int addr)$/;"	f
+sysup	./peer.c	/^void sysup(unsigned int addr)$/;"	f
+sysup	./test/test_peer.c	/^void sysup(unsigned int addr)$/;"	f
+t	./mmc.h	/^    int     t;              \/* t: token type    *\/$/;"	m	struct:_token_
+t	./peer.h	/^    time_t      	t;$/;"	m	struct:peer
+t	./timer.c	/^	struct timeb 		t; 					\/* expired timestamp *\/$/;"	m	struct:tentry	typeref:struct:tentry::timeb	file:
+t_peer	./peer.c	/^pthread_t t_peer;$/;"	v
+t_readit	./test/test_timer.c	/^pthread_t t_readit;$/;"	v
+t_timer	./timer.c	/^pthread_t t_timer;$/;"	v
+t_tqueue	./timer.c	/^static pthread_t t_tqueue;$/;"	v	file:
+tag	./shell.h	/^    char    tag[32];        \/* Tag      *\/$/;"	m	struct:proc
+task_cond	./timer.c	/^static pthread_cond_t task_cond;$/;"	v	file:
+task_lock	./timer.c	/^static pthread_mutex_t task_lock;$/;"	v	file:
+tc	./dns.h	/^						tc:1,		\/* Truncated			*\/$/;"	m	struct:dns
+tc	./dns.h	/^						tc:1,$/;"	m	struct:dns
+tcpDefaultTTL	./dhcp.h	/^        tcpDefaultTTL           =   37,$/;"	e	enum:__anon3
+tcpKeepaliveGarbage	./dhcp.h	/^        tcpKeepaliveGarbage     =   39,$/;"	e	enum:__anon3
+tcpKeepaliveInterval	./dhcp.h	/^        tcpKeepaliveInterval    =   38,$/;"	e	enum:__anon3
+tcp_connect	./sock.c	/^tcp_connect(unsigned int addr,unsigned short port)$/;"	f
+tcp_listen	./sock.c	/^tcp_listen(unsigned short port)$/;"	f
+temp	./make_radius.h	/^    char            temp[64];$/;"	m	struct:att
+tentry	./timer.c	/^typedef struct tentry {$/;"	s	file:
+tentry_t	./timer.c	/^} tentry_t;$/;"	t	typeref:struct:tentry	file:
+term	./test/test_shell.c	/^void term(int signo)$/;"	f
+testinfo_len	./__if.h	/^    u32 testinfo_len;$/;"	m	struct:ethtool_drvinfo
+thash	./timer.c	/^typedef struct thash {$/;"	s	file:
+thash_t	./timer.c	/^} thash_t;$/;"	t	typeref:struct:thash	file:
+tid	./test/test_cbtimer_block.c	/^int tid;$/;"	v
+tid_lock	./timer.c	/^static pthread_mutex_t tid_lock;$/;"	v	file:
+timeServer	./dhcp.h	/^        timeServer              =   4,$/;"	e	enum:__anon3
+time_lock	./timer.c	/^static pthread_mutex_t time_lock;$/;"	v	file:
+timerOffset	./dhcp.h	/^        timerOffset             =   2,$/;"	e	enum:__anon3
+timer_add	./timer.c	/^timer_add(short pt, char* k, int n, int t)$/;"	f	file:
+timer_callback	./timer.c	/^timer_callback(void* args)$/;"	f	file:
+timer_cb_add	./timer.c	/^timer_cb_add(int tid, void (*fn)(char*), void* d, int t)$/;"	f	file:
+timer_cb_del	./timer.c	/^timer_cb_del(int tid)$/;"	f	file:
+timer_check	./timer.c	/^timer_check(void* args)$/;"	f	file:
+timer_del	./timer.c	/^timer_del(char* k, int n)$/;"	f	file:
+tlist	./timer.c	/^	struct list_head	tlist;$/;"	m	struct:tentry	typeref:struct:tentry::list_head	file:
+token	./mmc.c	/^token_t token[MAXTOK];$/;"	v
+token_t	./mmc.h	/^} token_t;$/;"	t	typeref:struct:_token_
+total	./disk.h	/^	unsigned long	total;	\/* total size *\/$/;"	m	struct:disk
+total	./ipp.h	/^	unsigned int  	total;$/;"	m	struct:ipph
+trademark	./test/test_mmc.c	/^char trademark[]={$/;"	v
+trailerEncapsulation	./dhcp.h	/^        trailerEncapsulation    =   34,$/;"	e	enum:__anon3
+transceiver	./__if.h	/^	u8  transceiver;    \/* Which tranceiver to use *\/$/;"	m	struct:ethtool_cmd
+tsave	./mmc.c	/^struct termios	tsave;$/;"	v	typeref:struct:termios
+tsaveorg	./mmc.c	/^struct termios	tsaveorg;$/;"	v	typeref:struct:termios
+tsftotvu	./time.c	/^tsftotvu(unsigned long tsf)$/;"	f
+tstoushi	./time.c	/^unsigned long tstoushi[256] = {$/;"	v
+tstouslo	./time.c	/^unsigned long tstouslo[128] = {$/;"	v
+tstousmid	./time.c	/^unsigned long tstousmid[256] = {$/;"	v
+tvutotsf	./time.c	/^tvutotsf(unsigned long tvu)$/;"	f
+type	./make_dhcp.h	/^	unsigned char		type;$/;"	m	struct:dhcpopt_type
+type	./make_radius.h	/^	u_char		type;$/;"	m	struct:eap
+type	./make_radius.h	/^	u_char		type;$/;"	m	struct:find_challenge
+type	./make_radius.h	/^	u_char		type;$/;"	m	struct:vendor_int
+type	./make_radius.h	/^	u_char		type;$/;"	m	struct:vendor_string
+type	./make_radius.h	/^    u_char          type;$/;"	m	struct:att
+type	./make_radius.h	/^    u_char          type;$/;"	m	struct:att_addr
+type	./make_rrq.h	/^	uint8_t type;$/;"	m	struct:my_ext
+type	./make_rrq.h	/^	uint8_t type;$/;"	m	struct:myint_ext
+type	./make_rrq.h	/^	uint8_t type;$/;"	m	struct:udp_reply
+type	./make_rrq.h	/^	uint8_t type;$/;"	m	struct:udp_request
+type	./make_rrq.h	/^	unsigned char	type;$/;"	m	struct:challenge_extension
+type	./make_rrq.h	/^	unsigned char	type;$/;"	m	struct:extension
+type	./make_rrq.h	/^	unsigned char	type;$/;"	m	struct:find
+type	./make_rrq.h	/^	unsigned char	type;$/;"	m	struct:general
+type	./make_rrq.h	/^	unsigned char	type;$/;"	m	struct:nai
+type	./make_rrq.h	/^	unsigned char 	type;$/;"	m	struct:req_format
+type	./make_rrq.h	/^	unsigned char type;$/;"	m	struct:rep_format
+type	./mmc.h	/^    char type;                  \/* command token type       *\/$/;"	m	struct:_mmc_
+type	./radius.h	/^	unsigned char	type;$/;"	m	struct:attr
+type	./radius.h	/^	unsigned char	type;$/;"	m	struct:rattr
+type	./radius.h	/^	unsigned char	type;$/;"	m	struct:vend_attr
+u	./__if.h	/^	char	u:1,$/;"	m	struct:__if
+u16	./__if.h	/^typedef unsigned short u16;$/;"	t
+u16	./ioctl_func.h	/^typedef __uint16_t u16;$/;"	t
+u32	./__if.h	/^typedef unsigned int u32;$/;"	t
+u32	./ioctl_func.h	/^typedef __uint32_t u32;$/;"	t
+u8	./__if.h	/^typedef unsigned char u8;$/;"	t
+u8	./ioctl_func.h	/^typedef __uint8_t u8;$/;"	t
+udp_reply	./make_rrq.h	/^typedef struct udp_reply{$/;"	s
+udp_reply_t	./make_rrq.h	/^}udp_reply_t;$/;"	t	typeref:struct:udp_reply
+udp_request	./make_rrq.h	/^typedef struct udp_request{$/;"	s
+udp_request_t	./make_rrq.h	/^}udp_request_t;$/;"	t	typeref:struct:udp_request
+udpaddrsock	./sock.c	/^udpaddrsock(unsigned char* ipaddr,unsigned short port)$/;"	f
+udpbsock	./sock.c	/^udpbsock(unsigned short port)$/;"	f
+udpsock	./sock.c	/^udpsock(unsigned short port)$/;"	f
+umsg	./bufq.h	/^struct umsg $/;"	s
+umsg_t	./bufq.h	/^typedef struct umsg umsg_t;$/;"	t	typeref:struct:umsg
+unix0	./__time.h	44;"	d
+unless	./bufq.h	43;"	d
+unlockpid	./proc.c	/^unlockpid(char *path,char *f)$/;"	f
+upcount	./dns.h	/^	unsigned short		upcount;	\/* #RRs in the update section 			*\/$/;"	m	struct:dnsupd
+updlabel	./conf.c	/^updlabel(char* path,char* label,char* val)$/;"	f
+used	./disk.h	/^	unsigned long	used;	\/* used size *\/$/;"	m	struct:disk
+used	./ipp.h	/^	unsigned int  	used;$/;"	m	struct:ipph
+ustotshi	./time.c	/^unsigned long ustotshi[16] = {$/;"	v
+ustotslo	./time.c	/^unsigned long ustotslo[256] = {$/;"	v
+ustotsmid	./time.c	/^unsigned long ustotsmid[256] = {$/;"	v
+v6_tcp_connect	./sockv6.c	/^v6_tcp_connect(char *addr,unsigned short port)$/;"	f
+v6_tcp_listen	./sockv6.c	/^v6_tcp_listen(unsigned short port)$/;"	f
+val	./conf.h	/^	char val[CONFLEN];$/;"	m	struct:_conftab_
+val	./radius.h	/^	char *val;$/;"	m	struct:rattr
+value	./make_dhcp.h	/^	char				value[64];$/;"	m	struct:dhcpopt_string
+value	./make_radius.h	/^	char		value[64];$/;"	m	struct:eap
+value	./make_radius.h	/^	char 		value[16];$/;"	m	struct:find_challenge
+value	./make_rrq.h	/^	char			value[64];$/;"	m	struct:find
+value	./make_rrq.h	/^	uint32_t value;$/;"	m	struct:myint_ext
+value_size	./make_radius.h	/^	u_char 		value_size;$/;"	m	struct:find_challenge
+vend_attr	./radius.h	/^typedef struct vend_attr {$/;"	s
+vend_attr_t	./radius.h	/^} vend_attr_t;$/;"	t	typeref:struct:vend_attr
+vendorSpecificInfo	./dhcp.h	/^        vendorSpecificInfo      =   43,$/;"	e	enum:__anon3
+vendor_id	./make_radius.h	/^	uint32_t	vendor_id;$/;"	m	struct:vendor_int
+vendor_id	./make_radius.h	/^	uint32_t	vendor_id;$/;"	m	struct:vendor_string
+vendor_int	./make_radius.h	/^typedef struct vendor_int{$/;"	s
+vendor_int_t	./make_radius.h	/^}vendor_int_t;$/;"	t	typeref:struct:vendor_int
+vendor_length	./make_radius.h	/^	u_char		vendor_length;$/;"	m	struct:vendor_int
+vendor_length	./make_radius.h	/^	u_char		vendor_length;$/;"	m	struct:vendor_string
+vendor_string	./make_radius.h	/^typedef struct vendor_string{$/;"	s
+vendor_string_t	./make_radius.h	/^}vendor_string_t;$/;"	t	typeref:struct:vendor_string
+vendor_type	./make_radius.h	/^	u_char		vendor_type;$/;"	m	struct:vendor_int
+vendor_type	./make_radius.h	/^	u_char		vendor_type;$/;"	m	struct:vendor_string
+vendor_value	./make_radius.h	/^	char		vendor_value[64];$/;"	m	struct:vendor_string
+vendor_value	./make_radius.h	/^	uint32_t	vendor_value;$/;"	m	struct:vendor_int
+version	./__if.h	/^    char    version[32];    \/* driver version string *\/$/;"	m	struct:ethtool_drvinfo
+vn	./__time.h	/^					vn:3,		\/* Version Number				*\/$/;"	m	struct:ntp
+volatile	./mmc.h	26;"	d
+wait_icmp_reply	./ping.c	/^int wait_icmp_reply(int fd,short id,struct sockaddr_in *sin, int tsec,int usec)$/;"	f
+whitespace	./conf.c	/^whitespace (char *s)$/;"	f
+wolopts	./__if.h	/^    u32 wolopts;$/;"	m	struct:ethtool_wolinfo
+xDisplayManager	./dhcp.h	/^        xDisplayManager         =   49,$/;"	e	enum:__anon3
+xFontServer	./dhcp.h	/^        xFontServer             =   48,$/;"	e	enum:__anon3
+xeip	./ipp.h	/^	unsigned int 	xeip;$/;"	m	struct:ipph
+xid	./dhcp.h	/^    unsigned int 		xid;$/;"	m	struct:dhcp
+xid	./make_dhcp.h	/^    unsigned int 		xid;$/;"	m	struct:dhcpformat
+xmttm	./__time.h	/^	unsigned int  	xmttm[2];	\/* Transmit Timestamp 			*\/$/;"	m	struct:ntp
+xsip	./ipp.h	/^	unsigned int 	xsip;	\/* exclude *\/$/;"	m	struct:ipph
+yiaddr	./dhcp.h	/^    unsigned int 		yiaddr;$/;"	m	struct:dhcp
+yiaddr	./make_dhcp.h	/^    uint32_t 			yiaddr;$/;"	m	struct:dhcpformat
+z	./dns.h	/^						z:1,		\/* 						*\/$/;"	m	struct:dns
+z	./dns.h	/^						z:1,$/;"	m	struct:dns
+z	./dns.h	/^						z:4,$/;"	m	struct:dnsupd
+z	./dns.h	/^						z:7,$/;"	m	struct:dnsupd
+zocount	./dns.h	/^	unsigned short		zocount;	\/* #RRs in the zone selection 			*\/$/;"	m	struct:dnsupd

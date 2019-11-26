@@ -15,5 +15,9 @@ $(OUT): $(OBJ)
 	cp $@ ../bin 
 
 clean:
-	rm -rf $(OUT) $(OBJ)
+	rm -rf $(OUT) $(OBJ) dist/*.deb
 
+install:
+	cp $(OUT) dist/fopis-mmi/opt/fopis-mmi/bin
+	cp -r scripts dist/fopis-mmi/opt/fopis-mmi/
+	dpkg -b dist/fopis-mmi

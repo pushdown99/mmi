@@ -1,0 +1,12 @@
+Package: fopis-mmi 
+Version: 1.0.2
+Section: devel
+Priority: optional
+Architecture: amd64 
+Depends: gcc
+Recommends: 
+Maintainer: haeyun <haeyun@gmail.com>
+Homepage: 
+Description: FOPIS IoT PLATFORM Man-Machine Interface
+ 1.0.1 : message #1 
+ 1.0.2 : message #2 

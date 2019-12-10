@@ -1,6 +1,6 @@
 CC	= gcc
 INC 	= -I..
-LIBS = -L.. -lmnl -lpthread
+LIBS = -L.. -lpopup -lpthread
 CFLAGS 	= -ggdb $(INC) -DLinux
 
 SRCS = \
@@ -22,7 +22,8 @@ TARGET 	= test
 all: $(TARGET)
 
 $(TARGET) : $(OBJS)
-	$(CC) $(CFLAGS) -o test_access test_access.o $(LIBS)
+	$(CC) $(CFLAGS) -o progA progA.o $(LIBS)
+	$(CC) $(CFLAGS) -o progB progB.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_conf test_conf.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_icmp test_icmp.o  $(LIBS)
 	$(CC) $(CFLAGS) -o test_mac_parse test_mac_parse.o $(LIBS)
@@ -32,7 +33,6 @@ $(TARGET) : $(OBJS)
 	$(CC) $(CFLAGS) -o test_account test_account.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_cpu test_cpu.o $(LIBS)
 #	$(CC) $(CFLAGS) -o test_if test_if.o $(LIBS)
-	$(CC) $(CFLAGS) -o test_make_access test_make_access.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_msleep test_msleep.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_tcpcli test_tcpcli.o $(LIBS)
 	$(CC) $(CFLAGS) -o test_base64 test_base64.o $(LIBS)

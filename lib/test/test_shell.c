@@ -20,7 +20,7 @@ int init()
     proc_cb_up = procup;
     proc_cb_dn = procdn;
 
-    return proc_conf("proc.conf","sti");
+    return proc_conf("proc.conf","ariatech");
 }
 
 void term(int signo)

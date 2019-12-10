@@ -2,7 +2,7 @@ CC	= gcc
 INC 	= 
 LIBS 	=
 #CFLAGS 	= -ggdb $(INC) -fPIC -DLinux
-CFLAGS 	= -ggdb $(INC) -DLinux
+CFLAGS 	= -g -w $(INC) -DLinux
 
 SRCS = \
 bufq.c disk.c   hmac_md5.c  ioctl_func.c log.c         make_rrq.c  proc.c   shell.c  \
@@ -13,9 +13,8 @@ dhcp.c encode.c interface.c ipp.c        make_radius.c mmc.c       premmc.c radi
 # if.c ntp.c dns.c shell.c
 
 OBJS = $(SRCS:.c=.o)
-LIBS = -L. -lmnl -lpthread
+LIBS = -L. -lpopup -lpthread
 
-#TARGET 	= libmnl.so.1 libmnl.a
 TARGET 	= libpopup.a
 
 all: $(TARGET)
@@ -23,8 +22,9 @@ all: $(TARGET)
 libpopup.a : $(OBJS)
 	$(AR) -rcv $@ $(OBJS)
 	ranlib $@
+	cp -f $@ ..
 
-libmnl.so.1 : $(OBJS)
+libpopup.so.1 : $(OBJS)
 	$(CC) -shared -Wl,-soname,$@ -o $@ $(OBJS)
 
 dep:

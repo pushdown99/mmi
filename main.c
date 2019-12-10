@@ -6,10 +6,10 @@
 
 char trademark[]={
     "--------------------------------------------------\n"
-    "MMC (Man-Machine Command) Program                 \n"
-    "Copyright(C) 2019 wannabe-nine labs               \n"
+    "RADIX IoT Platform MMI (Man-Machine Interface)    \n"
+    "Copyright(C) 2019 Ariatech                        \n"
     "                                                  \n"
-    "                       http://wb9lab.com          \n"
+    "                       http://ariatech.kr         \n"
     "--------------------------------------------------\n"
 };
 
@@ -60,7 +60,7 @@ char* getOutput(char *script)
   _internal_buffer[0] = 0;
 
   //char *home = getenv("FOPIS_MMI_PATH");
-  char *home = "/opt/fopis-mmi";
+  char *home = "/opt/radix";
   sprintf(_internal_command, "%s/scripts/%s 2>&1", home, script);
 //printf("%s \n", _internal_command);
 

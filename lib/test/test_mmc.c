@@ -5,9 +5,9 @@
 char trademark[]={
     "--------------------------------------------------\n"
     "MMC (Man-Machine Command) Program                 \n"
-    "Copyright(C) 2015 MNL Solution CO., LTD.          \n"
+    "Copyright(C) 2019 wb9lab                          \n"
     "                                                  \n"
-    "                       http://www.mnlsolution.com \n"
+    "                       http://www.wb9lab.com      \n"
     "--------------------------------------------------\n"
 };
 

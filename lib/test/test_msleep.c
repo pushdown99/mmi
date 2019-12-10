@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include "__time.h"
+
 #define MAXHOST	20
 
 char hosts[MAXHOST][20] = {

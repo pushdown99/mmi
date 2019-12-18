@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <json.h>
+#include <string.h>
+#include <stdarg.h>
 
 #include "mmc.h"
 
@@ -119,162 +121,212 @@ json_object* getJson(char *cmd)
 #define UPLOAD_RATE_SCRIPT         "upload_transfer_rate.sh"
 #define USER_ACCOUNTS_SCRIPT       "user_accounts.sh"
 
-void show_arp_cache(char* fmt,...)
+void startS(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    printf("args: %s \n", arg2);
+}
+
+void stopS(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    printf("args: %s \n", arg2);
+}
+
+void show_public_ip(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    printf("address: %s \n", arg2);
+}
+
+void show_radix_checkup(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    system("/opt/radix/bin/radix-checkup");
+}
+
+void show_radix_config(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    system("/opt/radix/bin/radix-config");
+}
+
+void show_arp_cache(const char* va_alist,...)
 {
   char* out = getJson(ARP_CACHE_SCRIPT);
 }
 
-void show_bandwidth(char* fmt,...)
+void show_ps(const char* va_alist,...)
+{
+    DECLARE_VAR;
+    GET_VAR_ARG(va_alist);
+
+    char cmd[BUFSIZ];
+    sprintf(cmd, "ps -ef | grep %s | grep -v grep", arg3);
+    system(cmd);
+}
+
+void show_bandwidth(const char* va_alist,...)
 {
   char* out = getJson(BANDWIDTH_SCRIPT);
 }
 
-void show_application(char* fmt,...)
+void show_application(const char* va_alist,...)
 {
   char* out = getJson(APPLICATION_SCRIPT);
 }
 
-void show_cpu_info(char* fmt,...)
+void show_cpu_info(const char* va_alist,...)
 {
   char* out = getJson(CPU_INFO_SCRIPT);
 }
 
-void show_cpu_process(char* fmt,...)
+void show_cpu_process(const char* va_alist,...)
 {
   char* out = getJson(CPU_PROCESS_SCRIPT);
 }
 
-void show_cpu_temp(char* fmt,...)
+void show_cpu_temp(const char* va_alist,...)
 {
   char* out = getJson(CPU_TEMP_SCRIPT);
 }
 
-void show_cpu_utilization(char* fmt,...)
+void show_cpu_utilization(const char* va_alist,...)
 {
   char* out = getJson(CPU_UTILIZATION_SCRIPT);
 }
 
-void show_cron_history(char* fmt,...)
+void show_cron_history(const char* va_alist,...)
 {
   char* out = getJson(CRON_HISTORY_SCRIPT);
 }
 
-void show_current_ram(char* fmt,...)
+void show_current_ram(const char* va_alist,...)
 {
   char* out = getJson(CURRENT_RAM_SCRIPT);
 }
 
-void show_disk_partitions(char* fmt,...)
+void show_disk_partitions(const char* va_alist,...)
 {
   char* out = getJson(DISK_PARTITIONS_SCRIPT);
 }
 
-void show_docker_processes(char* fmt,...)
+void show_docker_processes(const char* va_alist,...)
 {
   char* out = getJson(DOCKER_PROCESSES_SCRIPT);
 }
 
-void show_download_rate(char* fmt,...)
+void show_download_rate(const char* va_alist,...)
 {
   char* out = getJson(DOWNLOAD_RATE_SCRIPT);
 }
 
-void show_general_info(char* fmt,...)
+void show_general_info(const char* va_alist,...)
 {
   char* out = getJson(GENERAL_INFO_SCRIPT);
 }
 
-void show_internet_speed(char* fmt,...)
+void show_internet_speed(const char* va_alist,...)
 {
   char* out = getJson(INTERNET_SPEED_SCRIPT);
 }
 
-void show_io_stats(char* fmt,...)
+void show_io_stats(const char* va_alist,...)
 {
   char* out = getJson(IO_STATS_SCRIPT);
 }
 
-void show_ip_addresses(char* fmt,...)
+void show_ip_addresses(const char* va_alist,...)
 {
   char* out = getJson(IP_ADDRESSES_SCRIPT);
 }
 
-void show_cpu_load(char* fmt,...)
+void show_cpu_load(const char* va_alist,...)
 {
   char* out = getJson(CPU_LOAD_SCRIPT);
 }
 
-void show_login_users(char* fmt,...)
+void show_login_users(const char* va_alist,...)
 {
   char* out = getJson(LOGGED_IN_USERS_SCRIPT);
 }
 
-void show_memcached(char* fmt,...)
+void show_memcached(const char* va_alist,...)
 {
   char* out = getJson(MEMCACHED_SCRIPT);
 }
 
-void show_memory_info(char* fmt,...)
+void show_memory_info(const char* va_alist,...)
 {
   char* out = getJson(MEMORY_INFO_SCRIPT);
 }
 
-void show_network_connections(char* fmt,...)
+void show_network_connections(const char* va_alist,...)
 {
   char* out = getJson(NETWORK_CONNECTIONS_SCRIPT);
 }
 
-void show_cpu_number(char* fmt,...)
+void show_cpu_number(const char* va_alist,...)
 {
   char* out = getJson(NUMBER_OF_CPU_SCRIPT);
 }
 
-void show_ping(char* fmt,...)
+void show_ping(const char* va_alist,...)
 {
   char* out = getJson(PING_SCRIPT);
 }
 
-void show_pm2(char* fmt,...)
+void show_pm2(const char* va_alist,...)
 {
   char* out = getJson(PM2_SCRIPT);
 }
 
-void show_raid_status(char* fmt,...)
+void show_raid_status(const char* va_alist,...)
 {
   char* out = getJson(RAID_STATUS_SCRIPT);
 }
 
-void show_ram_process(char* fmt,...)
+void show_ram_process(const char* va_alist,...)
 {
   char* out = getJson(RAM_PROCESS_SCRIPT);
 }
 
-void show_recent_logins(char* fmt,...)
+void show_recent_logins(const char* va_alist,...)
 {
   char* out = getJson(RECENT_LOGINS_SCRIPT);
 }
 
-void show_redis(char* fmt,...)
+void show_redis(const char* va_alist,...)
 {
   char* out = getJson(REDIS_SCRIPT);
 }
 
-void show_scheduled_crons(char* fmt,...)
+void show_scheduled_crons(const char* va_alist,...)
 {
   char* out = getJson(SCHEDULED_CRONS_SCRIPT);
 }
 
-void show_swap(char* fmt,...)
+void show_swap(const char* va_alist,...)
 {
   char* out = getJson(SWAP_SCRIPT);
 }
 
-void show_upload_rate(char* fmt,...)
+void show_upload_rate(const char* va_alist,...)
 {
   char* out = getJson(UPLOAD_RATE_SCRIPT);
 }
 
-void show_user_accounts(char* fmt,...)
+void show_user_accounts(const char* va_alist,...)
 {
   char* out = getJson(USER_ACCOUNTS_SCRIPT);
 }

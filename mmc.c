@@ -2,59 +2,67 @@
 
 #include "mmc.h"
 
-extern void quit(char*,...);
-extern void start(char*,...);
-extern void stop(char*,...);
-extern void args_ip(char*,...);
-extern void args_string(char*,...);
-extern void args_numeric(char*,...);
-extern void args_command(char*,...);
+extern void quit(const char* va_alist,...);
+extern void startS(const char* va_alist,...);
+extern void stopS(const char* va_alist,...);
+extern void args_ip(const char* va_alist,...);
+extern void args_string(const char* va_alist,...);
+extern void args_numeric(const char* va_alist,...);
+extern void args_command(const char* va_alist,...);
 
-extern void show_arp_cache(char* fmt,...);
-extern void show_bandwidth(char* fmt,...);
-extern void show_application(char* fmt,...);
-extern void show_cpu_info(char* fmt,...);
-extern void show_cpu_process(char* fmt,...);
-extern void show_cpu_temp(char* fmt,...);
-extern void show_cpu_utilization(char* fmt,...);
-extern void show_cron_history(char* fmt,...);
-extern void show_current_ram(char* fmt,...);
-extern void show_disk_partitions(char* fmt,...);
-extern void show_docker_processes(char* fmt,...);
-extern void show_download_rate(char* fmt,...);
-extern void show_general_info(char* fmt,...);
-extern void show_internet_speed(char* fmt,...);
-extern void show_io_stats(char* fmt,...);
-extern void show_ip_addresses(char* fmt,...);
-extern void show_cpu_load(char* fmt,...);
-extern void show_login_users(char* fmt,...);
-extern void show_memcached(char* fmt,...);
-extern void show_memory_info(char* fmt,...);
-extern void show_network_connections(char* fmt,...);
-extern void show_cpu_number(char* fmt,...);
-extern void show_ping(char* fmt,...);
-extern void show_pm2(char* fmt,...);
-extern void show_raid_status(char* fmt,...);
-extern void show_ram_process(char* fmt,...);
-extern void show_recent_logins(char* fmt,...);
-extern void show_redis(char* fmt,...);
-extern void show_scheduled_crons(char* fmt,...);
-extern void show_swap(char* fmt,...);
-extern void show_upload_rate(char* fmt,...);
-extern void show_user_accounts(char* fmt,...);
+extern void show_arp_cache(const char* va_alist,...);
+extern void show_ps(const char* va_alist,...);
+extern void show_radix_checkup(const char* va_alist,...);
+extern void show_radix_config(const char* va_alist,...);
+extern void show_bandwidth(const char* va_alist,...);
+extern void show_application(const char* va_alist,...);
+extern void show_cpu_info(const char* va_alist,...);
+extern void show_cpu_process(const char* va_alist,...);
+extern void show_cpu_temp(const char* va_alist,...);
+extern void show_cpu_utilization(const char* va_alist,...);
+extern void show_cron_history(const char* va_alist,...);
+extern void show_current_ram(const char* va_alist,...);
+extern void show_disk_partitions(const char* va_alist,...);
+extern void show_docker_processes(const char* va_alist,...);
+extern void show_download_rate(const char* va_alist,...);
+extern void show_general_info(const char* va_alist,...);
+extern void show_internet_speed(const char* va_alist,...);
+extern void show_io_stats(const char* va_alist,...);
+extern void show_ip_addresses(const char* va_alist,...);
+extern void show_cpu_load(const char* va_alist,...);
+extern void show_login_users(const char* va_alist,...);
+extern void show_memcached(const char* va_alist,...);
+extern void show_memory_info(const char* va_alist,...);
+extern void show_network_connections(const char* va_alist,...);
+extern void show_cpu_number(const char* va_alist,...);
+extern void show_ping(const char* va_alist,...);
+extern void show_pm2(const char* va_alist,...);
+extern void show_raid_status(const char* va_alist,...);
+extern void show_ram_process(const char* va_alist,...);
+extern void show_recent_logins(const char* va_alist,...);
+extern void show_redis(const char* va_alist,...);
+extern void show_scheduled_crons(const char* va_alist,...);
+extern void show_swap(const char* va_alist,...);
+extern void show_upload_rate(const char* va_alist,...);
+extern void show_user_accounts(const char* va_alist,...);
 
 mmc_t   _mmc[]={
     {"hist",        0,1,'C',    "hist",         "Histoty",                   	NULL},
     {"quit",        0,0,'C',    "quit",         "Quit this Program",         	quit},
     {"help",        0,0,'C',    "help",         "This screen",               	mmchelp}, /* internal support function */
-    {"start",       0,0,'C',    "start",        "start function",            	start},
-    {"stop",        0,0,'C',    "stop",        	"stop function",             	stop},
+    {"start",       0,1,'C',    "start",        "start function",            	NULL},
+    {"stop",        0,1,'C',    "stop",        	"stop function",             	NULL},
     {"show",        0,1,'C',    "show",        	"show function",             	NULL},
     {"args",        0,1,'C',    "args",        	"argument function",         	NULL},
 
+    {"{arg}",       1,0,'C',    "start-S",          "",         				startS},
+    {"{arg}",       1,0,'C',    "stop-S",          "",         				        stopS},
     {"arp",         1,1,'C',    "show-arp",         "",         				NULL},
+    {"ps",          1,1,'C',    "show-ps",         "",         				        NULL},
+    {"radix",       1,1,'C',    "show-radix",       "",         				NULL},
     {"bandwidth",   1,0,'C',    "show-bandwidth",   "",         				show_bandwidth},
     {"application", 1,0,'C',    "show-application", "",         				show_application},
+    {"ping",        1,0,'C',    "show-ping",        "",         				show_ping},
     {"cpu",         1,1,'C',    "show-cpu",         "",         				NULL},
     {"cron",        1,1,'C',    "show-cron",        "",         				NULL},
     {"memory",      1,1,'C',    "show-memory",      "",         				NULL},
@@ -68,6 +76,9 @@ mmc_t   _mmc[]={
     {"command",     1,1,'C',    "args-command",     "",         				NULL},
 
     {"cache",       2,0,'C',    "show-arp-cache",          "",         				show_arp_cache},
+    {"{process}",   2,0,'S',    "show-ps-S",               "",         				show_ps},
+    {"checkup",     2,0,'C',    "show-radix-checkup",      "",         				show_radix_checkup},
+    {"config",      2,0,'C',    "show-radix-config",       "",         				show_radix_config},
     {"info",        2,0,'C',    "show-cpu-info",           "",         				show_cpu_info},
     {"process",     2,0,'C',    "show-cpu-process",        "",         				show_cpu_process},
     {"temp",        2,0,'C',    "show-cpu-temp",           "",         				show_cpu_temp},

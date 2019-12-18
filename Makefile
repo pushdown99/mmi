@@ -3,7 +3,7 @@ SRC=main.c mmc.c
 OBJ=$(SRC:.c=.o)
 
 CC=gcc
-CFLAGS=-g -w -I. -I./lib -I./json-c -I/usr/local/include
+CFLAGS=-g -w -DLinux -I. -I./lib -I./json-c -I/usr/local/include 
 LDFLAGS=-L./lib -lpopup -ljson-c -lpthread
 
 all: $(OUT)
